@@ -1,22 +1,42 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
+  - title: Masked Spiking Transformer
+    authors: <strong>Ziqing Wang*</strong>, Yuetong Fang*, Jiahang Cao, Zhongrui Wang, Renjing Xu (*equal contribution)
+    conference_short: ICCV
+    conference: International Conference on Computer Vision <strong>(ICCV)</strong>, 2023.
+    pdf: https://arxiv.org/pdf/2210.01208.pdf
+    # code: https://github.com/MrGiovanni/ContinualLearning
     bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+    image: ./assets/img/MST.png
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
+  
+  - title: Spiking Denoising Diffusion Probabilistic Models
+    authors: Jiahang Cao*, <strong>Ziqing Wang*</strong>, Hanzhong Guo*, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
+    conference_short: Preprint
+    conference: Under Review
+    pdf: https://arxiv.org/pdf/2306.17046.pdf
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/SDDPM.png
+
+  - title: "AutoST: Training-free Neural Architecture Search for Spiking Transformers"
+    authors: <strong>Ziqing Wang</strong>, Qidong Zhao, Jinku Cui, Xu Liu, Dongkuan Xu
+    conference_short: Preprint
+    conference: Under Review
+    pdf: https://arxiv.org/pdf/2307.00293.pdf
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/AutoST.png
+
+
+
+  - title: "AMD-DBSCAN: An Adaptive Multi-density DBSCAN for datasets of extremely variable density"
+    authors: <strong>Ziqing Wang</strong>, Zhirong Ye, Yuyang Du, Yi Mao, Yanying Liu, Ziling Wu, Jun Wang
+    conference_short: DSAA
+    conference: 2022 IEEE 9th International Conference on Data Science and Advanced Analytics, <strong>(DSAA)</strong>, 2022.
+    pdf: https://arxiv.org/pdf/2210.08162.pdf
+    code: https://github.com/AlexandreWANG915/DBSCAN
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    image: ./assets/img/DBSCAN.png

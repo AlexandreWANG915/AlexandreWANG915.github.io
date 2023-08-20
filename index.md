@@ -4,19 +4,17 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am currently a first year student of North Carolina State Universtiy. I received my B.E. in Microelectronics at Sun Yat-sen Universtiy, where I was fortunate to be advised by Prof. Shanlin Xiao. From 2022 to 2023, I was a research intern at the HKUST(GZ), working with Prof. Renjing Xu.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Computer Vision:** image recognition, image generation, neural architecture search
+- **Natural Language Processing:** Parameter Efficient Fine-tuning, Quantization for LLM
 
 ## News
-
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Aug. 2023]** I will serve as an PC member of AAAI 2024.
+- **[Jul. 2023]** One paper is accepted to ICLR 2023.
+- **[June. 2022]** One paper is accepted to DSAA 2022.
 
 {% include_relative _includes/publications.md %}
 
