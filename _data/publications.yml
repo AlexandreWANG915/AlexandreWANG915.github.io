@@ -6,7 +6,7 @@ main:
     conference: International Conference on Computer Vision <strong>(ICCV)</strong>, 2023.
     pdf: https://arxiv.org/pdf/2210.01208.pdf
     # code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/MST.png
 
   
@@ -17,7 +17,7 @@ main:
     pdf: https://arxiv.org/pdf/2306.17046.pdf
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     image: ./assets/img/SDDPM.png
 
   - title: "AutoST: Training-free Neural Architecture Search for Spiking Transformers"
@@ -26,7 +26,7 @@ main:
     conference: Under Review
     pdf: https://arxiv.org/pdf/2307.00293.pdf
     # code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/AutoST.png
 
 
@@ -38,5 +38,5 @@ main:
     pdf: https://arxiv.org/pdf/2210.08162.pdf
     code: https://github.com/AlexandreWANG915/DBSCAN
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     image: ./assets/img/dbscan.png
