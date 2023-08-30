@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I received my B.E. in Microelectronics at Sun Yat-sen Universtiy, where I was fortunate to be advised by Prof. Shanlin Xiao. From 2022 to 2023, I was a research intern at the HKUST(GZ), working with Prof. Renjing Xu.
+I completed my Bachelor of Engineering (B.E.) in Microelectronics from Sun Yat-sen University in June 2023, under the guidance of Prof. Shanlin Xiao. Additionally, I had the opportunity to work as a research intern at the Hong Kong University of Science and Technology (HKUST), Guangzhou campus, from 2022 to 2023, where I collaborated with Prof. Renjing Xu.
 
 ## Research Interests
 
