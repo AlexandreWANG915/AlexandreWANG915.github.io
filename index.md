@@ -25,3 +25,5 @@ I am interested in efficient AI. My current research focus on how to achieve Par
 {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/services.md %}
+
+{% include_relative _includes/awards.md %}
