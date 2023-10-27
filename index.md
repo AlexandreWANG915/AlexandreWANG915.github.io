@@ -4,13 +4,15 @@ layout: homepage
 
 ## About Me
 
-Hello! I completed my Bachelor of Engineering (B.E.) in Microelectronics from Sun Yat-sen University in June 2023, under the guidance of Prof. Shanlin Xiao. Additionally, I had the opportunity to work as a research assistant at the Hong Kong University of Science and Technology (HKUST), Guangzhou campus, from 2022 to 2023, where I collaborated with Prof. Renjing Xu.
+Hello! I completed my Bachelor of Engineering (B.E.) in Microelectronics from Sun Yat-sen University in June 2023, under the guidance of Prof. Shanlin Xiao. Additionally, I had the opportunity to work as a research assistant at the Hong Kong University of Science and Technology (HKUST), Guangzhou campus, from 2022 to 2023, where I collaborated closely with Prof. Renjing Xu.
 
-Other than my work, I am a big fan of Golden State Warriors. My favorite basketball player is Steph Curry. Go Warriors!
+Other than my work, I am a big fan of the Golden State Warriors. My favorite basketball player is Steph Curry. Go Warriors!
+
+<span style="color:red">Currently seeking summer internships for 2024!</span>
 
 ## Research Interests
 
-I am interested in efficient AI. My current research focus on how to achieve Pareto optimality between model performance and energy consumption. I also delve into generative AI (Diffusion Models, LLMs). I am highly intrigued by the potential crossover between efficient AI and generative AI, and the domain of Science, especially biomedical.
+I am interested in efficient AI. My current research primarily focus on how to achieve Pareto optimality between model performance and energy consumption. I also have a keen interest in generative AI, such as Diffusion Models and LLMs. I am highly intrigued by the potential crossover between efficient AI, generative AI, and the scientific realm like biomedicine.
 
 - **Efficient AI:** Spiking Neural Networks, Quantization, Parameter Efficient Fine-tuning
 - **Generative AI:** Diffusion Models, LLMs
