@@ -23,13 +23,24 @@ main:
 
   - title: "Bursting Spikes: Efficient and High-performance SNNs for Evnet-based Vision"
     authors:  <strong>Ziqing Wang*</strong>, Yuetong Fang*, Jiahang Cao, Renjing Xu (*equal contribution)
-    conference_short: WACV
-    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2024. (spotlight)
-    pdf: https://arxiv.org/pdf/2306.17046.pdf
+    conference_short: Preprint
+    conference: Under Review at IEEE International Conference on Robotics and Automation <strong>(ICRA)</strong> 2024.
+    # pdf: https://arxiv.org/pdf/2306.17046.pdf
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    image: ./assets/img/SDDPM.png
+    image: ./assets/img/BEEF.png
+
+
+  - title: "BEEF: Building a BridgE from Event to Frame"
+    authors: Jiahang Cao*, Mingyuan Sun*, <strong>Ziqing Wang*</strong>, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
+    conference_short: Preprint
+    conference: Under Review at International Conference on Learning Representations <strong>(ICLR)</strong>, 2024.
+    # pdf: https://arxiv.org/pdf/2306.17046.pdf
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    image: ./assets/img/BEEF.png
 
 
 
@@ -37,7 +48,7 @@ main:
   - title: "AutoST: Training-free Neural Architecture Search for Spiking Transformers"
     authors: <strong>Ziqing Wang</strong>, Qidong Zhao, Jinku Cui, Xu Liu, Dongkuan Xu
     conference_short: Preprint
-    conference: Under Review
+    conference: Under Review at IEEE International Conference on Acoustics, Speech and Signal Processing <strong>(ICASSP)</strong> 2024.
     pdf: https://arxiv.org/pdf/2307.00293.pdf
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
