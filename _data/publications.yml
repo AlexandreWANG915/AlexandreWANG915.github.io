@@ -12,13 +12,27 @@ main:
   
   - title: Spiking Denoising Diffusion Probabilistic Models
     authors: Jiahang Cao*, <strong>Ziqing Wang*</strong>, Hanzhong Guo*, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
-    conference_short: Preprint
-    conference: Under Review
+    conference_short: WACV
+    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2024. <strong>(Spotlight)</strong>
     pdf: https://arxiv.org/pdf/2306.17046.pdf
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     image: ./assets/img/SDDPM.png
+
+
+  - title: "Bursting Spikes: Efficient and High-performance SNNs for Evnet-based Vision"
+    authors:  <strong>Ziqing Wang*</strong>, Yuetong Fang*, Jiahang Cao, Renjing Xu (*equal contribution)
+    conference_short: WACV
+    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2024. (spotlight)
+    pdf: https://arxiv.org/pdf/2306.17046.pdf
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    image: ./assets/img/SDDPM.png
+
+
+
 
   - title: "AutoST: Training-free Neural Architecture Search for Spiking Transformers"
     authors: <strong>Ziqing Wang</strong>, Qidong Zhao, Jinku Cui, Xu Liu, Dongkuan Xu
