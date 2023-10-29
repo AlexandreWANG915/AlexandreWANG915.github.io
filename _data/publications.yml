@@ -13,7 +13,7 @@ main:
   - title: Spiking Denoising Diffusion Probabilistic Models
     authors: Jiahang Cao*, <strong>Ziqing Wang*</strong>, Hanzhong Guo*, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
     conference_short: WACV
-    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2024. <strong>(Spotlight)</strong>
+    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2024. <b><font color="#cc0000">(Spotlight)</font></b><br>
     pdf: https://arxiv.org/pdf/2306.17046.pdf
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/

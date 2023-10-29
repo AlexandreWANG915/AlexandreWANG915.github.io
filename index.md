@@ -8,7 +8,8 @@ Hello! I completed my Bachelor of Engineering (B.E.) in Microelectronics from Su
 
 Other than my work, I am a big fan of the Golden State Warriors. My favorite basketball player is Steph Curry. Go Warriors!
 
-<span style="color:red">Currently seeking summer internships for 2024!</span>
+<!-- <span style="color:red">Currently seeking summer internships for 2024!</span> -->
+<b><font color="#cc0000">Currently seeking summer internships for 2024!</font></b><br>
 
 ## Research Interests
 
