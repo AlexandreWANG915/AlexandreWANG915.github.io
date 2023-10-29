@@ -7,6 +7,7 @@ main:
     pdf: https://arxiv.org/pdf/2210.01208.pdf
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
+    code: https://github.com/bic-L/Masked-Spiking-Transformer
     image: ./assets/img/MST.png
 
   
@@ -18,7 +19,20 @@ main:
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    code: https://github.com/AlexandreWANG915/DBSCAN
     image: ./assets/img/SDDPM.png
+
+
+  - title: "Dream Diffusion: Reconstruct Brain Dynamic from Text Stimula"
+    authors:  <strong>Ziqing Wang*</strong>, Yuetong Fang*, Jiahang Cao, Renjing Xu (*equal contribution)
+    conference_short: Preprint
+    conference: Under Review at IEEE International Conference on Robotics and Automation <strong>(ICRA)</strong> 2024.
+    # pdf: https://arxiv.org/pdf/2306.17046.pdf
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    code: https://github.com/bic-L/burst-ann2snn
+    image: ./assets/img/BURST.png
 
 
   - title: "Bursting Spikes: Efficient and High-performance SNNs for Evnet-based Vision"
@@ -29,6 +43,7 @@ main:
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    code: https://github.com/bic-L/burst-ann2snn
     image: ./assets/img/BURST.png
 
 

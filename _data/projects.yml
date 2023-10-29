@@ -1,0 +1,8 @@
+main:
+  - title: "Dream Diffusion: Reconstruct Brain Dynamic from Text Stimula"
+    # pdf: https://arxiv.org/pdf/2306.17046.pdf
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    code: https://github.com/bic-L/burst-ann2snn
+    image: ./assets/img/BURST.png
