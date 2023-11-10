@@ -24,7 +24,7 @@ main:
 
 
 
-  - title: "Bursting Spikes: Efficient and High-performance SNNs for Evnet-based Vision"
+  - title: "Bursting Spikes: Efficient and High-performance SNNs for Event-based Vision"
     authors:  <strong>Ziqing Wang*</strong>, Yuetong Fang*, Jiahang Cao, Renjing Xu (*equal contribution)
     conference_short: Preprint
     conference: Under Review at IEEE International Conference on Robotics and Automation <strong>(ICRA)</strong> 2024.
