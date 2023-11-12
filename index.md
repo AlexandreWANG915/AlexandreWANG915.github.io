@@ -21,7 +21,7 @@ I am interested in efficient AI. My current research primarily focus on how to a
 
 ## News
 - **[Nov. 2023]** I will serve as an PC member of CVPR 2024.
-- **[Oct. 2023]** One paper is accepted to WACV 2024 <b>(Spotlight)<br>.
+- **[Oct. 2023]** One paper is accepted to WACV 2024 <b>(Spotlight).<br>
 - **[Aug. 2023]** I will serve as an PC member of AAAI 2024.
 - **[Jul. 2023]** One paper is accepted to ICCV 2023.
 - **[June. 2022]** One paper is accepted to DSAA 2022.
