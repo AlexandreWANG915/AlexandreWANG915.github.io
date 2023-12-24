@@ -31,7 +31,7 @@ main:
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/AutoST.png
 
-    - title: "AMD-DBSCAN: An Adaptive Multi-density DBSCAN for datasets of extremely variable density"
+  - title: "AMD-DBSCAN: An Adaptive Multi-density DBSCAN for datasets of extremely variable density"
     authors: <strong>Ziqing Wang</strong>, Zhirong Ye, Yuyang Du, Yi Mao, Yanying Liu, Ziling Wu, Jun Wang
     conference_short: DSAA
     conference: 2022 IEEE 9th International Conference on Data Science and Advanced Analytics, <strong>(DSAA)</strong>, 2022.
