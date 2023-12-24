@@ -66,7 +66,7 @@ main:
   - title: Spiking Wavelet Transformer
     authors: Yuetong Fang*, <strong>Ziqing Wang*</strong>, Jiahang Cao, Renjing Xu (*equal contribution)
     conference_short: Preprint
-    conference: IEEE Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2024.
+    conference: Under Review at IEEE Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2024.
     # pdf: https://arxiv.org/pdf/2210.01208.pdf
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
