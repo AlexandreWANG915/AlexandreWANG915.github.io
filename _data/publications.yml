@@ -31,7 +31,15 @@ main:
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/AutoST.png
 
-
+    - title: "AMD-DBSCAN: An Adaptive Multi-density DBSCAN for datasets of extremely variable density"
+    authors: <strong>Ziqing Wang</strong>, Zhirong Ye, Yuyang Du, Yi Mao, Yanying Liu, Ziling Wu, Jun Wang
+    conference_short: DSAA
+    conference: 2022 IEEE 9th International Conference on Data Science and Advanced Analytics, <strong>(DSAA)</strong>, 2022.
+    pdf: https://arxiv.org/pdf/2210.08162.pdf
+    code: https://github.com/AlexandreWANG915/DBSCAN
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    image: ./assets/img/dbscan.png
 
   - title: "Bursting Spikes: Efficient and High-performance SNNs for Event-based Vision"
     authors:  <strong>Ziqing Wang*</strong>, Yuetong Fang*, Jiahang Cao, Renjing Xu (*equal contribution)
@@ -55,14 +63,15 @@ main:
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     image: ./assets/img/BEEF.png
 
+  - title: Spiking Wavelet Transformer
+    authors: Yuetong Fang*, <strong>Ziqing Wang*</strong>, Jiahang Cao, Renjing Xu (*equal contribution)
+    conference_short: Preprint
+    conference: IEEE Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2024.
+    # pdf: https://arxiv.org/pdf/2210.01208.pdf
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    # code: https://github.com/bic-L/Masked-Spiking-Transformer
+    image: ./assets/img/SWT.png
 
 
-  - title: "AMD-DBSCAN: An Adaptive Multi-density DBSCAN for datasets of extremely variable density"
-    authors: <strong>Ziqing Wang</strong>, Zhirong Ye, Yuyang Du, Yi Mao, Yanying Liu, Ziling Wu, Jun Wang
-    conference_short: DSAA
-    conference: 2022 IEEE 9th International Conference on Data Science and Advanced Analytics, <strong>(DSAA)</strong>, 2022.
-    pdf: https://arxiv.org/pdf/2210.08162.pdf
-    code: https://github.com/AlexandreWANG915/DBSCAN
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    image: ./assets/img/dbscan.png
+
