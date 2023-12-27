@@ -20,11 +20,11 @@ I am interested in efficient AI. My current research primarily focus on how to a
 - **AI for Science:** Molecule Generation, EEG Reconstruction
 
 ## News
-- **[Dec. 2023]** One Paper is accepted to ICASSP 2024.
+- **[Dec. 2023]** One paper is accepted to ICASSP 2024.
 - **[Nov. 2023]** I will serve as a reviwer of CVPR 2024.
 - **[Oct. 2023]** One paper is accepted to WACV 2024.
 - **[Aug. 2023]** I will serve as an PC member of AAAI 2024.
-- **[Jul. 2023]** One paper is accepted to ICCV 2023.
+- **[Jul. 2023]** One paper is accepted to ICCV 2023.ß
 - **[June. 2022]** One paper is accepted to DSAA 2022.
 
 {% include_relative _includes/publications.md %}
