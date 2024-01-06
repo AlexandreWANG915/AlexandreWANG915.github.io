@@ -1,6 +1,6 @@
 ## Miscellaneous
 <!-- <h4 style="margin:0 10px 0;">Miscellaneous</h4> -->
-
+I love travelling and basketball. I am a big fan of the Golden State Warriors. My favorite basketball player is Steph Curry.
 <style>
     .hobby-row {
         display: flex;
@@ -20,7 +20,7 @@
 
 <div class="hobby-row">
     <div class="hobby">
-        <h4>Great Canyon</h4>
+        <h4>Grand Canyon</h4>
         <img src="./assets/img/daxiagu.jpeg" alt="1" />
         <!-- <p>Playing Basketball</p> -->
     </div>
@@ -35,7 +35,7 @@
         <!-- <p>Playing Basketball</p> -->
     </div>
     <div class="hobby">
-        <h4>Golden Gate Bridge</h4>
+        <h4>Gold Blooded</h4>
         <img src="./assets/img/yongshi.jpeg" alt="4" />
         <!-- <p>Playing Basketball</p> -->
     </div>
