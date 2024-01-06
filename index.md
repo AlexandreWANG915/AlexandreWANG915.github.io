@@ -34,3 +34,5 @@ I am interested in efficient AI. My current research primarily focus on how to a
 {% include_relative _includes/services.md %}
 
 {% include_relative _includes/awards.md %}
+
+{% include_relative _includes/misc.md %}
