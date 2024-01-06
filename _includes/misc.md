@@ -30,7 +30,7 @@ I love travelling and basketball. I am a big fan of the Golden State Warriors. M
         <!-- <p>Playing Basketball</p> -->
     </div>
     <div class="hobby">
-        <h4>Curry</h4>
+        <h4>Steph Curry</h4>
         <img src="./assets/img/curry.jpeg" alt="3" />
         <!-- <p>Playing Basketball</p> -->
     </div>
