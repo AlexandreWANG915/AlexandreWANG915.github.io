@@ -13,7 +13,7 @@ I love travelling and basketball. I am a big fan of the Golden State Warriors. M
     }
     .hobby img {
         width: 100%; /* 图片宽度填满容器 */
-        height: 200px; /* 固定图片高度 */
+        height: 400px; /* 固定图片高度 */
         object-fit: cover; /* 保持图片比例 */
     }
 </style>
