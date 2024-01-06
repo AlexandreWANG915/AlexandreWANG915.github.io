@@ -19,23 +19,14 @@
 
 <div class="hobby-row">
     <div class="hobby">
-        <h3>兴趣爱好1</h3>
-        <img src="assets/img/dbscan.jpg" alt="兴趣爱好1" />
+        <h4>Basketball</h4>
+        <img src="./assets/img/dbscan.png" alt="兴趣爱好1" />
         <p>Playing Basketball</p>
     </div>
 
     <div class="hobby">
-        <h3>兴趣爱好2</h3>
-        <img src="hobby2.jpg" alt="兴趣爱好2" />
-        <p>一些关于兴趣爱好2的描述。</p>
+        <h4>Basketball</h4>
+        <img src="./assets/img/dbscan.png" alt="兴趣爱好1" />
+        <p>Playing Basketball</p>
     </div>
-
-    <!-- 添加更多的兴趣爱好，它们将自动排列为每行两个 -->
-    <div class="hobby">
-        <h3>兴趣爱好3</h3>
-        <img src="hobby3.jpg" alt="兴趣爱好3" />
-        <p>一些关于兴趣爱好3的描述。</p>
-    </div>
-
-    <!-- 继续添加更多兴趣爱好 -->
 </div>
