@@ -12,13 +12,13 @@
         margin-bottom: 20px;
     }
     .hobby img {
-        max-width: 100%;
-        height: auto;
+        width: 100%; /* 图片宽度填满容器 */
+        height: 200px; /* 固定图片高度 */
+        object-fit: cover; /* 保持图片比例 */
     }
 </style>
 
 <div class="hobby-row">
-    <h3>Traveling</h3>
     <div class="hobby">
         <h4>Great Canyon</h4>
         <img src="./assets/img/daxiagu.jpeg" alt="1" />
@@ -29,7 +29,6 @@
         <img src="./assets/img/jinmendaqiao.jpeg" alt="2" />
         <!-- <p>Playing Basketball</p> -->
     </div>
-    <h3>Basketball</h3>
     <div class="hobby">
         <h4>Curry</h4>
         <img src="./assets/img/curry.jpeg" alt="3" />
