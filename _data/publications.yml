@@ -65,7 +65,7 @@ main:
   - title: "BEEF: Building a BridgE from Event to Frame"
     authors: Jiahang Cao*, Mingyuan Sun*, <strong>Ziqing Wang*</strong>, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
     conference_short: Preprint
-    conference: Under Review at International Conference on Learning Representations <strong>(ICML)</strong>, 2024.
+    conference: Under Review at International Conference on Machine Learning <strong>(ICML)</strong>, 2024.
     # pdf: https://arxiv.org/pdf/2306.17046.pdf
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
