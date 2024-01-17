@@ -52,17 +52,6 @@ main:
     code: https://github.com/bic-L/burst-ann2snn
     image: ./assets/img/BURST.png
 
-
-  - title: "BEEF: Building a BridgE from Event to Frame"
-    authors: Jiahang Cao*, Mingyuan Sun*, <strong>Ziqing Wang*</strong>, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
-    conference_short: Preprint
-    conference: Under Review at International Conference on Learning Representations <strong>(ICLR)</strong>, 2024.
-    # pdf: https://arxiv.org/pdf/2306.17046.pdf
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    image: ./assets/img/BEEF.png
-
   - title: Spiking Wavelet Transformer
     authors: Yuetong Fang*, <strong>Ziqing Wang*</strong>, Jiahang Cao, Renjing Xu (*equal contribution)
     conference_short: Preprint
@@ -72,6 +61,17 @@ main:
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     # code: https://github.com/bic-L/Masked-Spiking-Transformer
     image: ./assets/img/SWT.png
+
+  - title: "BEEF: Building a BridgE from Event to Frame"
+    authors: Jiahang Cao*, Mingyuan Sun*, <strong>Ziqing Wang*</strong>, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
+    conference_short: Preprint
+    conference: Under Review at International Conference on Learning Representations <strong>(ICML)</strong>, 2024.
+    # pdf: https://arxiv.org/pdf/2306.17046.pdf
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    image: ./assets/img/BEEF.png
+
 
 
 
