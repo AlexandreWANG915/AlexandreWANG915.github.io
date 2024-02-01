@@ -20,6 +20,7 @@ I am interested in efficient AI. My current research primarily focus on how to a
 - **AI for Science:** Molecule Generation, EEG Reconstruction
 
 ## News
+- **[Jan. 2024]** I will serve as a reviwer of MM 2024.
 - **[Dec. 2023]** One paper is accepted to ICASSP 2024.
 - **[Nov. 2023]** I will serve as a reviwer of CVPR 2024.
 - **[Oct. 2023]** One paper is accepted to WACV 2024.
