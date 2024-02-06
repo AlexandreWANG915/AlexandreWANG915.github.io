@@ -15,8 +15,8 @@ Other than my work, I am a big fan of the Golden State Warriors. My favorite bas
 
 I am interested in efficient AI. My current research primarily focus on how to achieve Pareto optimality between model performance and energy consumption. I also have a keen interest in generative AI, such as Diffusion Models and LLMs. I am highly intrigued by the potential crossover between efficient AI, generative AI, and the scientific realm like biomedicine.
 
-- **Efficient AI:** Spiking Neural Networks, Quantization, Parameter Efficient Fine-tuning
-- **Generative AI:** Diffusion Models, LLMs
+- **Efficient AI:** Efficient Transformer Training and Inference, Spiking Neural Networks, Quantization, Parameter Efficient Fine-tuning
+- **Generative AI:** Diffusion Models, Large Language Models
 - **AI for Science:** Molecule Generation, EEG Reconstruction
 
 ## News
