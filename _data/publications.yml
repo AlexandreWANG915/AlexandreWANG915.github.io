@@ -27,7 +27,7 @@ main:
     conference_short: ICASSP
     conference: <b><font color="#cc0000">[Oral]</font></b> IEEE International Conference on Acoustics, Speech and Signal Processing <strong>(ICASSP)</strong> 2024. 
     pdf: https://arxiv.org/pdf/2307.00293.pdf
-    # code: https://github.com/MrGiovanni/ContinualLearning
+    code: https://github.com/AlexandreWANG915/AutoST
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/AutoST.png
 
