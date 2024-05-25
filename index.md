@@ -21,6 +21,7 @@ I am interested in efficient AI. My current research primarily focus on how to a
 - **AI for Science:** Molecule Generation, EEG Reconstruction
 
 ## News
+- **[May. 2024]** I will serve as a reviwer of NeurIPS 2024.
 - **[Mar. 2024]** Gave a talk at the Intel INRC lab.
 - **[Feb. 2024]** My ICASSP paper is selected as an oral paper. See in Seoul!!
 - **[Feb. 2024]** I will serve as a reviwer of ECCV 2024.
