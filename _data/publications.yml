@@ -44,7 +44,7 @@ main:
   - title: "Bursting Spikes: Efficient and High-performance SNNs for Event-based Vision"
     authors:  <strong>Ziqing Wang*</strong>, Yuetong Fang*, Jiahang Cao, Renjing Xu (*equal contribution)
     conference_short: Preprint
-    conference: Under Review at European Conference on Computer Vision <strong>(ECCV)</strong> 2024.
+    conference: Under Review
     # pdf: https://arxiv.org/pdf/2306.17046.pdf
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
@@ -55,7 +55,7 @@ main:
   - title: Spiking Wavelet Transformer
     authors: Yuetong Fang*, <strong>Ziqing Wang*</strong>, Jiahang Cao, Renjing Xu (*equal contribution)
     conference_short: Preprint
-    conference: Under Review at European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
+    conference: Under Review
     # pdf: https://arxiv.org/pdf/2210.01208.pdf
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
@@ -65,7 +65,7 @@ main:
   - title: "BEEF: Building a BridgE from Event to Frame"
     authors: Jiahang Cao*, Mingyuan Sun*, <strong>Ziqing Wang*</strong>, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
     conference_short: Preprint
-    conference: Under Review at International Conference on Machine Learning <strong>(ICML)</strong>, 2024.
+    conference: Under Review
     # pdf: https://arxiv.org/pdf/2306.17046.pdf
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
