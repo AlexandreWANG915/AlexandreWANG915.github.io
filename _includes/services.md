@@ -1,31 +1,19 @@
-## Services
+## Professional Services
 
-<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
+<h4 style="margin:0 10px 0;">Program Committee</h4>
 
 <ul style="margin:0 0 5px;">
-  <li><a href="https://neurips.cc/"><autocolor>The Thirty-eighth Annual Conference on Neural Information Processing Systems</autocolor></a></li>
+  <li><a href="https://neurips.cc/"><autocolor>NeurIPS '24</autocolor></a></li>
+  <li><a href="https://eccv2024.ecva.net/"><autocolor>ECCV '24</autocolor></a></li>
+  <li><a href="https://2024.acmmm.org/"><autocolor>ACM MM '24</autocolor></a></li>
+  <li><a href="https://cvpr.thecvf.com/"><autocolor>CVPR '24</autocolor></a></li>
+  <li><a href="https://aaai.org/aaai-conference/"><autocolor>AAAI '24</autocolor></a></li>
+  <li><a href="https://kdd.org/kdd2023/"><autocolor>KDD '23</autocolor></a></li>
+  <li><a href="https://aaai.org/aaai-conference/"><autocolor>AAAI '23</autocolor></a></li>
 </ul>
 
-<ul style="margin:0 0 5px;">
-  <li><a href="https://eccv2024.ecva.net/"><autocolor>The 18th European Conference on Computer Vision ECCV 2024</autocolor></a></li>
-</ul>
+<h4 style="margin:0 10px 0;">Journal Reviewer</h4>
 
 <ul style="margin:0 0 5px;">
-  <li><a href="https://2024.acmmm.org/"><autocolor>ACM MULTIMEDIA 2024</autocolor></a></li>
-</ul>
-
-<ul style="margin:0 0 5px;">
-  <li><a href="https://cvpr.thecvf.com/"><autocolor>The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2024</autocolor></a></li>
-</ul>
-
-<ul style="margin:0 0 5px;">
-  <li><a href="https://aaai.org/aaai-conference/"><autocolor>The 38th Annual AAAI Conference on Artificial Intelligence</autocolor></a></li>
-</ul>
-
-<ul style="margin:0 0 5px;">
-  <li><a href="https://kdd.org/kdd2023/"><autocolor>29TH ACM SIGKDD CONFERENCE ON KNOWLEDGE DISCOVERY AND DATA MINING</autocolor></a></li>
-</ul>
-
-<ul style="margin:0 0 5px;">
-  <li><a href="https://aaai.org/aaai-conference/"><autocolor>The 37th Annual AAAI Conference on Artificial Intelligence</autocolor></a></li>
+  <li><autocolor>TNNLS</autocolor></a></li>
 </ul>
