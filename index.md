@@ -20,6 +20,7 @@ I am interested in efficient AI. My current research primarily focus on how to a
 - **AI for Science:** Molecule Generation, EEG Reconstruction
 
 ## News
+- **[Jul. 2024]** One paper is accepted to ECCV 2023. See in Milan!!
 - **[Jun. 2024]** I serve as a reviwer of TNNLS.
 - **[Jun. 2024]** I will serve as an PC member of AAAI 2025.
 - **[May. 2024]** I will serve as a reviwer of NeurIPS 2024.

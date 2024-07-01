@@ -10,6 +10,17 @@ main:
     code: https://github.com/bic-L/Masked-Spiking-Transformer
     image: ./assets/img/MST.png
 
+
+  - title: Spiking Wavelet Transformer
+    authors: Yuetong Fang*, <strong>Ziqing Wang*</strong>, Jiahang Cao, Renjing Xu (*equal contribution)
+    conference_short: ECCV
+    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
+    # pdf: https://arxiv.org/pdf/2210.01208.pdf
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    # code: https://github.com/bic-L/Masked-Spiking-Transformer
+    image: ./assets/img/SWT.png
+
   
   - title: Spiking Denoising Diffusion Probabilistic Models
     authors: Jiahang Cao*, <strong>Ziqing Wang*</strong>, Hanzhong Guo*, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
@@ -52,15 +63,6 @@ main:
     code: https://github.com/bic-L/burst-ann2snn
     image: ./assets/img/BURST.png
 
-  - title: Spiking Wavelet Transformer
-    authors: Yuetong Fang*, <strong>Ziqing Wang*</strong>, Jiahang Cao, Renjing Xu (*equal contribution)
-    conference_short: Preprint
-    conference: Under Review
-    # pdf: https://arxiv.org/pdf/2210.01208.pdf
-    # code: https://github.com/MrGiovanni/ContinualLearning
-    # bibtex: https://bib.yliu.me/MICCAI23.txt
-    # code: https://github.com/bic-L/Masked-Spiking-Transformer
-    image: ./assets/img/SWT.png
 
   - title: "BEEF: Building a BridgE from Event to Frame"
     authors: Jiahang Cao*, Mingyuan Sun*, <strong>Ziqing Wang*</strong>, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
