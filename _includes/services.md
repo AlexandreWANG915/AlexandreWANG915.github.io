@@ -3,6 +3,8 @@
 <h4 style="margin:0 10px 0;">Program Committee</h4>
 
 <ul style="margin:0 0 5px;">
+  <li><a href="https://iclr.cc/Conferences/2025"><autocolor>ICLR'25</autocolor></a></li>
+  <li><a href="https://2025.ieeeicassp.org/"><autocolor>ICASSP'25</autocolor></a></li>
   <li><a href="https://aaai.org/aaai-conference/"><autocolor>AAAI'25</autocolor></a></li>
   <li><a href="https://neurips.cc/"><autocolor>NeurIPS'24</autocolor></a></li>
   <li><a href="https://eccv2024.ecva.net/"><autocolor>ECCV'24</autocolor></a></li>
