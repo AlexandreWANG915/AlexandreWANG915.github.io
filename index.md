@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Hello! I am an incoming Ph.D. student in the Department of Statistic and Data Science at Northwestern University. I completed my Bachelor of Engineering (B.E.) in Microelectronics from Sun Yat-sen University, under the guidance of Prof. Shanlin Xiao. Additionally, I had the opportunity to work as a research assistant at the Hong Kong University of Science and Technology (HKUST), Guangzhou campus, from 2022 to 2023, where I collaborated closely with Prof. Renjing Xu.
+Hello! I am a Ph.D. student in the Reliable, Efficient, and Autonomous Learning (REAL) Lab, Department of Statistic and Data Science at Northwestern University, under the supervision of <a href="https://kaize0409.github.io/index.html" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-5">Prof. Kaize Ding</a>. I completed my Bachelor of Engineering (B.E.) in Microelectronics from Sun Yat-sen University, under the guidance of Prof. Shanlin Xiao. Additionally, I had the opportunity to work as a research assistant at the Hong Kong University of Science and Technology (HKUST), Guangzhou campus, from 2022 to 2023, where I collaborated closely with Prof. Renjing Xu.
 
 Other than my work, I am a big fan of the Golden State Warriors. My favorite basketball player is Steph Curry. Go Warriors!
 
@@ -20,10 +20,10 @@ I am interested in efficient AI. My current research primarily focus on how to a
 - **AI for Science:** Molecule Generation, EEG Reconstruction
 
 ## News
-- **[Aug. 2024]** I serve as a reviwer of ICLR 2025.
-- **[Aug. 2024]** I serve as a reviwer of ICASSP 2025.
+- **[Aug. 2024]** I will serve as a reviwer of ICLR 2025.
+- **[Aug. 2024]** I will serve as a reviwer of ICASSP 2025.
 - **[Jul. 2024]** One paper is accepted to ECCV 20244. See in Milan!!
-- **[Jun. 2024]** I serve as a reviwer of TNNLS.
+- **[Jun. 2024]** I will serve as a reviwer of TNNLS.
 - **[Jun. 2024]** I will serve as an PC member of AAAI 2025.
 - **[May. 2024]** I will serve as a reviwer of NeurIPS 2024.
 - **[Mar. 2024]** Gave a talk at the Intel INRC lab.
