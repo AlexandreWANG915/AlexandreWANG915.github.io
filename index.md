@@ -20,7 +20,7 @@ I am interested in efficient AI. My current research primarily focus on how to a
 - **AI for Science:** Molecule Generation, EEG Reconstruction
 
 ## News
-- **[Sep. 2024]** Two paper are accepted to NeurIPS 2024. See in
+- **[Sep. 2024]** Two paper are accepted to NeurIPS 2024. See in Vancouver!!
 - **[Aug. 2024]** One paper is accepted to IEEE Transactions on Artificial Intelligence.
 - **[Aug. 2024]** I will serve as a reviwer of ICLR 2025.
 - **[Aug. 2024]** I will serve as a reviwer of ICASSP 2025.
