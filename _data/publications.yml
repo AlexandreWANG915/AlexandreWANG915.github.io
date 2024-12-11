@@ -33,14 +33,6 @@ main:
     conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
     image: ./assets/img/SWT.png
 
-  - title: Spiking Denoising Diffusion Probabilistic Models
-    authors: Jiahang Cao*, <strong>Ziqing Wang*</strong>, Hanzhong Guo*, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
-    conference_short: WACV
-    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2024.
-    pdf: https://arxiv.org/pdf/2306.17046.pdf
-    code: https://github.com/AndyCao1125/SDDPM
-    image: ./assets/img/SDDPM.png
-
   - title: "AutoST: Training-free Neural Architecture Search for Spiking Transformers"
     authors: <strong>Ziqing Wang</strong>, Qidong Zhao, Jinku Cui, Xu Liu, Dongkuan Xu
     conference_short: ICASSP
@@ -48,6 +40,14 @@ main:
     pdf: https://arxiv.org/pdf/2307.00293.pdf
     code: https://github.com/AlexandreWANG915/AutoST
     image: ./assets/img/AutoST.png
+
+  - title: Spiking Denoising Diffusion Probabilistic Models
+    authors: Jiahang Cao*, <strong>Ziqing Wang*</strong>, Hanzhong Guo*, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
+    conference_short: WACV
+    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2024.
+    pdf: https://arxiv.org/pdf/2306.17046.pdf
+    code: https://github.com/AndyCao1125/SDDPM
+    image: ./assets/img/SDDPM.png
 
   - title: "AMD-DBSCAN: An Adaptive Multi-density DBSCAN for datasets of extremely variable density"
     authors: <strong>Ziqing Wang</strong>, Zhirong Ye, Yuyang Du, Yi Mao, Yanying Liu, Ziling Wu, Jun Wang
