@@ -20,11 +20,11 @@ I am interested in efficient AI. My current research primarily focus on how to a
 - **AI for Science:** Molecule Generation, EEG Reconstruction
 
 ## News
+<div style="max-height: 300px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; margin: 10px 0;" markdown="1">
+
 - **[Dec. 2024]** One paper is accepted to AAAI 2025. See in Philadelphia!!
 - **[Sep. 2024]** Two paper are accepted to NeurIPS 2024. See in Vancouver!!
 - **[Aug. 2024]** One paper is accepted to IEEE Transactions on Artificial Intelligence.
-
-<div style="max-height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; margin: 10px 0;">
 - **[Aug. 2024]** I will serve as a reviwer of ICLR 2025.
 - **[Aug. 2024]** I will serve as a reviwer of ICASSP 2025.
 - **[Jul. 2024]** One paper is accepted to ECCV 20244. See in Milan!!
@@ -41,6 +41,7 @@ I am interested in efficient AI. My current research primarily focus on how to a
 - **[Aug. 2023]** I will serve as an PC member of AAAI 2024.
 - **[Jul. 2023]** One paper is accepted to ICCV 2023.
 - **[June. 2022]** One paper is accepted to DSAA 2022.
+
 </div>
 
 {% include_relative _includes/publications.md %}
