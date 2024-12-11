@@ -15,7 +15,7 @@ main:
     image: ./assets/img/BURST.png
 
   - title: "Autonomous Driving with Spiking Neural Networks"
-    authors: Rui-jie Zhu, <strong>Ziqing Wang*</strong>, Leilani Gilpin, Jason K. Eshraghian (*equal contribution)
+    authors: Rui-jie Zhu*, <strong>Ziqing Wang*</strong>, Leilani Gilpin, Jason K. Eshraghian (*equal contribution)
     conference_short: NeurIPS
     conference: NeurIPS Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2024.
     code: https://github.com/ridgerchu/SAD
