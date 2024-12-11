@@ -20,31 +20,29 @@ I am interested in efficient AI. My current research primarily focus on how to a
 - **AI for Science:** Molecule Generation, EEG Reconstruction
 
 ## News
-<td style="padding:2.5%;width:100%;vertical-align:middle">
-  <div class="listbox" style="height:300px; overflow-y:auto; border:1px solid #ddd; padding:15px; background-color:#f9f9f9;">
-    <ul style="list-style-type:none; padding-left:0; margin:0;">
-      <li style="margin-bottom:10px;">**[Dec. 2024]** One paper is accepted to AAAI 2025. See in Philadelphia!!</li>
-      <li style="margin-bottom:10px;">**[Sep. 2024]** Two papers are accepted to NeurIPS 2024. See in Vancouver!!</li>
-      <li style="margin-bottom:10px;">**[Aug. 2024]** One paper is accepted to IEEE Transactions on Artificial Intelligence.</li>
-      <li style="margin-bottom:10px;">**[Aug. 2024]** I will serve as a reviewer of ICLR 2025.</li>
-      <li style="margin-bottom:10px;">**[Aug. 2024]** I will serve as a reviewer of ICASSP 2025.</li>
-      <li style="margin-bottom:10px;">**[Jul. 2024]** One paper is accepted to ECCV 2024. See in Milan!!</li>
-      <li style="margin-bottom:10px;">**[Jun. 2024]** I will serve as a reviewer of TNNLS.</li>
-      <li style="margin-bottom:10px;">**[Jun. 2024]** I will serve as an PC member of AAAI 2025.</li>
-      <li style="margin-bottom:10px;">**[May. 2024]** I will serve as a reviewer of NeurIPS 2024.</li>
-      <li style="margin-bottom:10px;">**[Mar. 2024]** Gave a talk at the Intel INRC lab.</li>
-      <li style="margin-bottom:10px;">**[Feb. 2024]** My ICASSP paper is selected as an oral paper. See in Seoul!!</li>
-      <li style="margin-bottom:10px;">**[Feb. 2024]** I will serve as a reviewer of ECCV 2024.</li>
-      <li style="margin-bottom:10px;">**[Jan. 2024]** I will serve as a reviewer of MM 2024.</li>
-      <li style="margin-bottom:10px;">**[Dec. 2023]** One paper is accepted to ICASSP 2024.</li>
-      <li style="margin-bottom:10px;">**[Nov. 2023]** I will serve as a reviewer of CVPR 2024.</li>
-      <li style="margin-bottom:10px;">**[Oct. 2023]** One paper is accepted to WACV 2024.</li>
-      <li style="margin-bottom:10px;">**[Aug. 2023]** I will serve as an PC member of AAAI 2024.</li>
-      <li style="margin-bottom:10px;">**[Jul. 2023]** One paper is accepted to ICCV 2023.</li>
-      <li style="margin-bottom:10px;">**[June. 2022]** One paper is accepted to DSAA 2022.</li>
-    </ul>
-  </div>
-</td>
+<div style="height:300px; overflow-y:auto; border:1px solid #ddd; padding:15px; background-color:#ffffff;">
+
+- [12/2024] &nbsp;One paper is accepted to AAAI 2025. See in Philadelphia!!
+- [09/2024] &nbsp;Two papers are accepted to NeurIPS 2024. See in Vancouver!!
+- [08/2024] &nbsp;One paper is accepted to IEEE Transactions on Artificial Intelligence.
+- [08/2024] &nbsp;I will serve as a reviewer of ICLR 2025.
+- [08/2024] &nbsp;I will serve as a reviewer of ICASSP 2025.
+- [07/2024] &nbsp;One paper is accepted to ECCV 2024. See in Milan!!
+- [06/2024] &nbsp;I will serve as a reviewer of TNNLS.
+- [06/2024] &nbsp;I will serve as an PC member of AAAI 2025.
+- [05/2024] &nbsp;I will serve as a reviewer of NeurIPS 2024.
+- [03/2024] &nbsp;Gave a talk at the Intel INRC lab.
+- [02/2024] &nbsp;My ICASSP paper is selected as an oral paper. See in Seoul!!
+- [02/2024] &nbsp;I will serve as a reviewer of ECCV 2024.
+- [01/2024] &nbsp;I will serve as a reviewer of MM 2024.
+- [12/2023] &nbsp;One paper is accepted to ICASSP 2024.
+- [11/2023] &nbsp;I will serve as a reviewer of CVPR 2024.
+- [10/2023] &nbsp;One paper is accepted to WACV 2024.
+- [08/2023] &nbsp;I will serve as an PC member of AAAI 2024.
+- [07/2023] &nbsp;One paper is accepted to ICCV 2023.
+- [06/2022] &nbsp;One paper is accepted to DSAA 2022.
+
+</div>
 
 {% include_relative _includes/publications.md %}
 
