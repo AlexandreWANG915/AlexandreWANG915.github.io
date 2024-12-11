@@ -20,7 +20,7 @@ I am interested in efficient AI. My current research primarily focus on how to a
 - **AI for Science:** Molecule Generation, EEG Reconstruction
 
 ## News
-<div style="height:300px; overflow-y:auto; border:1px solid #ddd; padding:15px; background-color:#ffffff;">
+<div style="height:300px; overflow-y:auto; border:1px solid #ddd; padding:15px; margin-bottom:30px; background-color:#ffffff;">
 - [12/2024] &nbsp;One paper is accepted to AAAI 2025. See in Philadelphia!!<br>
 - [09/2024] &nbsp;Two papers are accepted to NeurIPS 2024. See in Vancouver!!<br>
 - [08/2024] &nbsp;One paper is accepted to IEEE Transactions on Artificial Intelligence.<br>
