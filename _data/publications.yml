@@ -11,6 +11,42 @@ main:
     image: ./assets/img/MST.png
 
 
+ - title: "Adaptive Calibration: A Unified Conversion Framework of Spiking Neural Networks"
+    authors:  <strong>Ziqing Wang*</strong>, Yuetong Fang*, Jiahang Cao, Renjing Xu (*equal contribution)
+    conference_short: AAAI
+    conference: AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2025.
+    # pdf: https://arxiv.org/pdf/2306.17046.pdf
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    code: https://github.com/bic-L/burst-ann2snn
+    image: ./assets/img/BURST.png
+
+
+ - title: "Autonomous Driving with Spiking Neural Networks"
+    authors:  Rui-jie Zhu, <strong>Ziqing Wang*</strong>, Leilani Gilpin, Jason K. Eshraghian (*equal contribution)
+    conference_short: NeurIPS
+    conference: NeurIPS Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2024.
+    # pdf: https://arxiv.org/pdf/2306.17046.pdf
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    code: https://github.com/ridgerchu/SAD
+    image: ./assets/img/SAD.png
+
+
+
+  - title: "Spiking Neural Network as Adaptive Event Stream Slicer"
+    authors: Jiahang Cao*, Mingyuan Sun*, <strong>Ziqing Wang*</strong>, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
+    conference_short: NeurIPS
+    conference: NeurIPS Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2024.
+    # pdf: https://arxiv.org/pdf/2306.17046.pdf
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    image: ./assets/img/BEEF.png
+
+
   - title: Spiking Wavelet Transformer
     authors: Yuetong Fang*, <strong>Ziqing Wang*</strong>, Jiahang Cao, Renjing Xu (*equal contribution)
     conference_short: ECCV
@@ -52,27 +88,8 @@ main:
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     image: ./assets/img/dbscan.png
 
-  - title: "Adaptive Calibration: A Unified Conversion Framework of Spiking Neural Networks"
-    authors:  <strong>Ziqing Wang*</strong>, Yuetong Fang*, Jiahang Cao, Renjing Xu (*equal contribution)
-    conference_short: Preprint
-    conference: Under Review
-    # pdf: https://arxiv.org/pdf/2306.17046.pdf
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    code: https://github.com/bic-L/burst-ann2snn
-    image: ./assets/img/BURST.png
 
 
-  - title: "BEEF: Building a BridgE from Event to Frame"
-    authors: Jiahang Cao*, Mingyuan Sun*, <strong>Ziqing Wang*</strong>, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
-    conference_short: Preprint
-    conference: Under Review
-    # pdf: https://arxiv.org/pdf/2306.17046.pdf
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    image: ./assets/img/BEEF.png
 
 
 
