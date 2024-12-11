@@ -21,27 +21,25 @@ I am interested in efficient AI. My current research primarily focus on how to a
 
 ## News
 <div style="height:300px; overflow-y:auto; border:1px solid #ddd; padding:15px; background-color:#ffffff;">
-
-- [12/2024] &nbsp;One paper is accepted to AAAI 2025. See in Philadelphia!!
-- [09/2024] &nbsp;Two papers are accepted to NeurIPS 2024. See in Vancouver!!
-- [08/2024] &nbsp;One paper is accepted to IEEE Transactions on Artificial Intelligence.
-- [08/2024] &nbsp;I will serve as a reviewer of ICLR 2025.
-- [08/2024] &nbsp;I will serve as a reviewer of ICASSP 2025.
-- [07/2024] &nbsp;One paper is accepted to ECCV 2024. See in Milan!!
-- [06/2024] &nbsp;I will serve as a reviewer of TNNLS.
-- [06/2024] &nbsp;I will serve as an PC member of AAAI 2025.
-- [05/2024] &nbsp;I will serve as a reviewer of NeurIPS 2024.
-- [03/2024] &nbsp;Gave a talk at the Intel INRC lab.
-- [02/2024] &nbsp;My ICASSP paper is selected as an oral paper. See in Seoul!!
-- [02/2024] &nbsp;I will serve as a reviewer of ECCV 2024.
-- [01/2024] &nbsp;I will serve as a reviewer of MM 2024.
-- [12/2023] &nbsp;One paper is accepted to ICASSP 2024.
-- [11/2023] &nbsp;I will serve as a reviewer of CVPR 2024.
-- [10/2023] &nbsp;One paper is accepted to WACV 2024.
-- [08/2023] &nbsp;I will serve as an PC member of AAAI 2024.
-- [07/2023] &nbsp;One paper is accepted to ICCV 2023.
+- [12/2024] &nbsp;One paper is accepted to AAAI 2025. See in Philadelphia!!<br>
+- [09/2024] &nbsp;Two papers are accepted to NeurIPS 2024. See in Vancouver!!<br>
+- [08/2024] &nbsp;One paper is accepted to IEEE Transactions on Artificial Intelligence.<br>
+- [08/2024] &nbsp;I will serve as a reviewer of ICLR 2025.<br>
+- [08/2024] &nbsp;I will serve as a reviewer of ICASSP 2025.<br>
+- [07/2024] &nbsp;One paper is accepted to ECCV 2024. See in Milan!!<br>
+- [06/2024] &nbsp;I will serve as a reviewer of TNNLS.<br>
+- [06/2024] &nbsp;I will serve as an PC member of AAAI 2025.<br>
+- [05/2024] &nbsp;I will serve as a reviewer of NeurIPS 2024.<br>
+- [03/2024] &nbsp;Gave a talk at the Intel INRC lab.<br>
+- [02/2024] &nbsp;My ICASSP paper is selected as an oral paper. See in Seoul!!<br>
+- [02/2024] &nbsp;I will serve as a reviewer of ECCV 2024.<br>
+- [01/2024] &nbsp;I will serve as a reviewer of MM 2024.<br>
+- [12/2023] &nbsp;One paper is accepted to ICASSP 2024.<br>
+- [11/2023] &nbsp;I will serve as a reviewer of CVPR 2024.<br>
+- [10/2023] &nbsp;One paper is accepted to WACV 2024.<br>
+- [08/2023] &nbsp;I will serve as an PC member of AAAI 2024.<br>
+- [07/2023] &nbsp;One paper is accepted to ICCV 2023.<br>
 - [06/2022] &nbsp;One paper is accepted to DSAA 2022.
-
 </div>
 
 {% include_relative _includes/publications.md %}
