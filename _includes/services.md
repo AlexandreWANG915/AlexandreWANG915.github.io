@@ -6,7 +6,7 @@
   <li><a href="https://icml.cc/"><autocolor>ICML'25</autocolor></a></li>
   <li><a href="https://iclr.cc/Conferences/2025"><autocolor>ICLR'25</autocolor></a></li>
   <li><a href="https://2025.ieeeicassp.org/"><autocolor>ICASSP'25</autocolor></a></li>
-  <li><a href="https://aaai.org/aaai-conference/"><autocolor>AAAI'23,24 25</autocolor></a></li>
+  <li><a href="https://aaai.org/aaai-conference/"><autocolor>AAAI'23,24,25</autocolor></a></li>
   <li><a href="https://neurips.cc/"><autocolor>NeurIPS'24</autocolor></a></li>
   <li><a href="https://eccv2024.ecva.net/"><autocolor>ECCV'24</autocolor></a></li>
   <li><a href="https://2024.acmmm.org/"><autocolor>ACM MM'24</autocolor></a></li>
