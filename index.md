@@ -21,6 +21,7 @@ I am interested in efficient AI. My current research primarily focus on how to a
 
 ## News
 <div style="height:300px; overflow-y:auto; border:1px solid #ddd; padding:15px; margin-bottom:30px; background-color:#ffffff;">
+- [01/2025] &nbsp;My AAAI paper is selected as an oral paper. See you in Philadelphia!!<br>
 - [12/2024] &nbsp;Glad to receive a AAAI Travel Grant. Thank you AAAI!!<br>
 - [12/2024] &nbsp;One paper is accepted to AAAI 2025. See you in Philadelphia!!<br>
 - [12/2024] &nbsp;I will serve as a reviewer of ICML 2025.<br>

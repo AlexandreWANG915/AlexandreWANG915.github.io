@@ -10,7 +10,7 @@ main:
   - title: "Adaptive Calibration: A Unified Conversion Framework of Spiking Neural Networks"
     authors: <strong>Ziqing Wang*</strong>, Yuetong Fang*, Jiahang Cao, Renjing Xu (*equal contribution)
     conference_short: AAAI
-    conference: AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2025.
+    conference: <b><font color="#cc0000">[Oral]</font></b> AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2025.
     code: https://github.com/bic-L/burst-ann2snn
     image: ./assets/img/BURST.png
 
