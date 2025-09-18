@@ -14,13 +14,13 @@ main:
     code: https://github.com/bic-L/burst-ann2snn
     image: ./assets/img/BURST.png
 
-  - title: AMANDA: Agentic Medical Knowledge Augmentation for Data-Efficient Medical Visual Question Answering
+  - title: "AMANDA: Agentic Medical Knowledge Augmentation for Data-Efficient Medical Visual Question Answering"
     authors: <strong>Ziqing Wang</strong>, Chengsheng Mao, Xiaole Wen, Yuan Luo, Kaize Ding
     conference_short: EMNLP
     conference: International Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025.
     image: ./assets/img/amanda.jpg
 
-  - title: A Survey of Large Language Models for Text-Guided Molecular Discovery: from Molecule Generation to Optimization
+  - title: "A Survey of Large Language Models for Text-Guided Molecular Discovery: from Molecule Generation to Optimization"
     authors: <strong>Ziqing Wang*</strong>, Kexin Zhang*, Zihan Zhao, Yibo Wen, Abhishek Pandy, Han Liu, Kaize Ding
     conference_short: Preprint
     conference: Preprint, 2025.
