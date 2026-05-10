@@ -1,61 +1,105 @@
-main:
-  - title: Masked Spiking Transformer
-    authors: <strong>Ziqing Wang*</strong>, Yuetong Fang*, Jiahang Cao, Zhongrui Wang, Renjing Xu (*equal contribution)
-    conference_short: ICCV
-    conference: International Conference on Computer Vision <strong>(ICCV)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2210.01208.pdf
-    code: https://github.com/bic-L/Masked-Spiking-Transformer
-    image: ./assets/img/MST.png
+published:
+  - title: "MolMem: Memory-Augmented Agentic Reinforcement Learning for Sample-Efficient Molecular Optimization"
+    authors: <strong>Ziqing Wang</strong>, Yibo Wen, Abhishek Pandey, Han Liu, Kaize Ding
+    conference_short: ACL
+    conference: Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026.
+    year: 2026
+    pdf: https://arxiv.org/pdf/2604.12237.pdf
+    code: https://github.com/REAL-Lab-NU/MolMem
+    image: ./assets/img/MolMem.png
+
+  - title: "A Survey of Large Language Models for Text-Guided Molecular Discovery: from Molecule Generation to Optimization"
+    authors: <strong>Ziqing Wang*</strong>, Kexin Zhang*, Zihan Zhao, Yibo Wen, Abhishek Pandey, Han Liu, Kaize Ding (*equal contribution)
+    conference_short: ACL
+    conference: Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026.
+    year: 2026
+    pdf: https://arxiv.org/pdf/2505.16094.pdf
+    code: https://github.com/REAL-Lab-NU/Awesome-LLM-Centric-Molecular-Discovery
+    image: ./assets/img/LLM4Molecule.jpg
+
+  - title: "GlassMol: Interpretable Molecular Property Prediction with Concept Bottleneck Models"
+    authors: Oscar Rivera, <strong>Ziqing Wang</strong>, Matthieu Dagommer, Abhishek Pandey, Kaize Ding
+    conference_short: PAKDD
+    conference: <b><font color="#cc0000">[Oral]</font></b> Pacific-Asia Conference on Knowledge Discovery and Data Mining <strong>(PAKDD)</strong>, 2026.
+    year: 2026
+    pdf: https://arxiv.org/pdf/2603.01274.pdf
+    code: https://github.com/walleio/GlassMol
+    image: ./assets/img/GlassMol.png
+
+  - title: "Dynamic Token Masking in Spiking Neural Network"
+    authors: Yuetong Fang*, <strong>Ziqing Wang*</strong>, Deming Zhou, Hongwei Ren, Shibo Zhou, Renjing Xu (*equal contribution)
+    conference_short: IJCV
+    conference: International Journal of Computer Vision <strong>(IJCV)</strong>, 2025.
+    year: 2025
+    image: ./assets/img/DynamicTokenMasking.png
 
   - title: "Adaptive Calibration: A Unified Conversion Framework of Spiking Neural Networks"
     authors: <strong>Ziqing Wang*</strong>, Yuetong Fang*, Jiahang Cao, Renjing Xu (*equal contribution)
     conference_short: AAAI
     conference: <b><font color="#cc0000">[Oral]</font></b> AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2025.
+    year: 2025
+    pdf: https://arxiv.org/pdf/2412.16219.pdf
     code: https://github.com/bic-L/burst-ann2snn
     image: ./assets/img/BURST.png
+
+  - title: "Spiking Neural Networks Need High Frequency Information"
+    authors: Yuetong Fang, Deming Zhou, <strong>Ziqing Wang</strong>, Hongwei Ren, Zecui Zeng, Lusong Li, Shibo Zhou, Renjing Xu
+    conference_short: NeurIPS
+    conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
+    year: 2025
+    pdf: https://arxiv.org/pdf/2505.18608.pdf
+    image: ./assets/img/MaxFormer.jpg
 
   - title: "AMANDA: Agentic Medical Knowledge Augmentation for Data-Efficient Medical Visual Question Answering"
     authors: <strong>Ziqing Wang</strong>, Chengsheng Mao, Xiaole Wen, Yuan Luo, Kaize Ding
     conference_short: EMNLP
-    conference: International Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025.
+    conference: Findings of the Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025.
+    year: 2025
+    pdf: https://arxiv.org/pdf/2510.02328.pdf
+    code: https://github.com/REAL-Lab-NU/AMANDA
     image: ./assets/img/amanda.jpg
-
-  - title: "A Survey of Large Language Models for Text-Guided Molecular Discovery: from Molecule Generation to Optimization"
-    authors: <strong>Ziqing Wang*</strong>, Kexin Zhang*, Zihan Zhao, Yibo Wen, Abhishek Pandy, Han Liu, Kaize Ding
-    conference_short: Preprint
-    conference: Preprint, 2025.
-    image: ./assets/img/LLM4Molecule.jpg
-
-
-  - title: "Spiking Transformers Need High-Frequency Information"
-    authors: Yuetong Fang, Deming Zhou, <strong>Ziqing Wang</strong>, Hongwei Ren, Zecui Zeng, Lusong Li, Shibo Zhou, Renjing Xu
-    conference_short: NeurIPS
-    conference: NeurIPS Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
-    image: ./assets/img/MaxFormer.jpg
 
   - title: "Autonomous Driving with Spiking Neural Networks"
     authors: Rui-jie Zhu*, <strong>Ziqing Wang*</strong>, Leilani Gilpin, Jason K. Eshraghian (*equal contribution)
     conference_short: NeurIPS
-    conference: NeurIPS Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2024.
+    conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2024.
+    year: 2024
+    pdf: https://arxiv.org/pdf/2405.19687.pdf
     code: https://github.com/ridgerchu/SAD
     image: ./assets/img/SAD.png
 
   - title: "Spiking Neural Network as Adaptive Event Stream Slicer"
-    authors: Jiahang Cao*, Mingyuan Sun*, <strong>Ziqing Wang*</strong>, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
+    authors: Jiahang Cao*, Mingyuan Sun*, <strong>Ziqing Wang*</strong>, Hao Cheng, Qiang Zhang, Shibo Zhou, Renjing Xu (*equal contribution)
     conference_short: NeurIPS
-    conference: NeurIPS Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2024.
+    conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2024.
+    year: 2024
+    pdf: https://arxiv.org/pdf/2410.02249.pdf
+    code: https://github.com/AndyCao1125/SpikeSlicer
     image: ./assets/img/BEEF.png
 
   - title: Spiking Wavelet Transformer
-    authors: Yuetong Fang*, <strong>Ziqing Wang*</strong>, Jiahang Cao, Renjing Xu (*equal contribution)
+    authors: Yuetong Fang*, <strong>Ziqing Wang*</strong>, Lingfeng Zhang, Jiahang Cao, Honglei Chen, Renjing Xu (*equal contribution)
     conference_short: ECCV
     conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
+    year: 2024
+    pdf: https://arxiv.org/pdf/2403.11138.pdf
+    code: https://github.com/bic-L/Spiking-Wavelet-Transformer
     image: ./assets/img/SWT.png
+
+  - title: Spiking Diffusion Models
+    authors: Jiahang Cao*, Hanzhong Guo*, <strong>Ziqing Wang*</strong>, Deming Zhou, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
+    conference_short: TAI
+    conference: IEEE Transactions on Artificial Intelligence <strong>(TAI)</strong>, 2024.
+    year: 2024
+    pdf: https://arxiv.org/pdf/2408.16467.pdf
+    code: https://github.com/AndyCao1125/SDM
+    image: ./assets/img/SDM-TAI.png
 
   - title: "AutoST: Training-free Neural Architecture Search for Spiking Transformers"
     authors: <strong>Ziqing Wang</strong>, Qidong Zhao, Jinku Cui, Xu Liu, Dongkuan Xu
     conference_short: ICASSP
-    conference: <b><font color="#cc0000">[Oral]</font></b> IEEE International Conference on Acoustics, Speech and Signal Processing <strong>(ICASSP)</strong> 2024.
+    conference: <b><font color="#cc0000">[Oral]</font></b> IEEE International Conference on Acoustics, Speech and Signal Processing <strong>(ICASSP)</strong>, 2024.
+    year: 2024
     pdf: https://arxiv.org/pdf/2307.00293.pdf
     code: https://github.com/AlexandreWANG915/AutoST
     image: ./assets/img/AutoST.png
@@ -64,21 +108,58 @@ main:
     authors: Jiahang Cao*, <strong>Ziqing Wang*</strong>, Hanzhong Guo*, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
     conference_short: WACV
     conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2024.
+    year: 2024
     pdf: https://arxiv.org/pdf/2306.17046.pdf
     code: https://github.com/AndyCao1125/SDDPM
     image: ./assets/img/SDDPM.png
 
+  - title: Masked Spiking Transformer
+    authors: <strong>Ziqing Wang*</strong>, Yuetong Fang*, Jiahang Cao, Qiang Zhang, Zhongrui Wang, Renjing Xu (*equal contribution)
+    conference_short: ICCV
+    conference: International Conference on Computer Vision <strong>(ICCV)</strong>, 2023.
+    year: 2023
+    pdf: https://arxiv.org/pdf/2210.01208.pdf
+    code: https://github.com/bic-L/Masked-Spiking-Transformer
+    image: ./assets/img/MST.png
+
   - title: "AMD-DBSCAN: An Adaptive Multi-density DBSCAN for datasets of extremely variable density"
     authors: <strong>Ziqing Wang</strong>, Zhirong Ye, Yuyang Du, Yi Mao, Yanying Liu, Ziling Wu, Jun Wang
     conference_short: DSAA
-    conference: 2022 IEEE 9th International Conference on Data Science and Advanced Analytics, <strong>(DSAA)</strong>, 2022.
+    conference: IEEE International Conference on Data Science and Advanced Analytics <strong>(DSAA)</strong>, 2022.
+    year: 2022
     pdf: https://arxiv.org/pdf/2210.08162.pdf
     code: https://github.com/AlexandreWANG915/DBSCAN
     image: ./assets/img/dbscan.png
 
+preprints:
+  - title: "HopRank: Self-Supervised LLM Preference-Tuning on Graphs for Few-Shot Node Classification"
+    authors: <strong>Ziqing Wang</strong>, Kaize Ding
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    year: 2026
+    pdf: https://arxiv.org/pdf/2604.17271.pdf
+    image: ./assets/img/HopRank.png
 
+  - title: "RAPTOR: Ridge-Adaptive Logistic Probes"
+    authors: Ziqi Gao, Yaotian Zhu, Qingcheng Zeng, Xu Zhao, <strong>Ziqing Wang</strong>, Feng Ruan, Kaize Ding
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    year: 2026
+    pdf: https://arxiv.org/pdf/2602.00158.pdf
+    image: ./assets/img/RAPTOR.png
 
+  - title: "POLO: Preference-Guided Multi-Turn Reinforcement Learning for Lead Optimization"
+    authors: <strong>Ziqing Wang</strong>, Yibo Wen, William Pattie, Xiao Luo, Weimin Wu, Jerry Yao-Chieh Hu, Abhishek Pandey, Han Liu, Kaize Ding
+    conference_short: arXiv
+    conference: arXiv preprint, 2025.
+    year: 2025
+    pdf: https://arxiv.org/pdf/2509.21737.pdf
+    image: ./assets/img/POLO.png
 
-
-
-
+  - title: "Mamba as Decision Maker: Exploring Multi-scale Sequence Modeling in Offline Reinforcement Learning"
+    authors: Jiahang Cao, Qiang Zhang, <strong>Ziqing Wang</strong>, Jingkai Sun, Jiaxu Wang, Hao Cheng, Yecheng Shao, Wen Zhao, Gang Han, Yijie Guo, Renjing Xu
+    conference_short: arXiv
+    conference: arXiv preprint, 2024.
+    year: 2024
+    pdf: https://arxiv.org/pdf/2406.02013.pdf
+    image: ./assets/img/mamba-dm.png

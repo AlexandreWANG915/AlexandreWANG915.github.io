@@ -20,14 +20,12 @@ I love travelling and basketball. I am a big fan of the Golden State Warriors. M
 
 <div class="hobby-row">
     <div class="hobby">
-        <h4>Grand Canyon</h4>
-        <img src="./assets/img/daxiagu.jpeg" alt="1" />
-        <!-- <p>Playing Basketball</p> -->
+        <h4>Rocky Mountain National Park</h4>
+        <img src="./assets/img/rocky-mountain.jpg" alt="Rocky Mountain National Park" />
     </div>
     <div class="hobby">
-        <h4>Golden Gate Bridge</h4>
-        <img src="./assets/img/jinmendaqiao.jpeg" alt="2" />
-        <!-- <p>Playing Basketball</p> -->
+        <h4>Maroon Bells</h4>
+        <img src="./assets/img/maroon-bells.jpg" alt="Maroon Bells" />
     </div>
     <div class="hobby">
         <h4>Steph Curry</h4>

@@ -359,6 +359,10 @@ section {
   padding-bottom:50px;
 }
 
+section p, section li {
+  text-wrap: pretty;
+}
+
 small {
   font-size:11px;
 }
