@@ -60,3 +60,9 @@ I focus on building **reliable and efficient AI systems for autonomous decision-
 {% include_relative _includes/awards.md %}
 
 {% include_relative _includes/misc.md %}
+
+## Visitors
+
+<div style="text-align: center; margin: 20px 0 30px;">
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=6C9QWGcHymGYxQ_ivHq6754lFcxkM1ru6g3SFeseVw0&cl=ffffff&w=a"></script>
+</div>
