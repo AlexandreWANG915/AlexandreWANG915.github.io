@@ -17,6 +17,14 @@ published:
     code: https://github.com/REAL-Lab-NU/Awesome-LLM-Centric-Molecular-Discovery
     image: ./assets/img/LLM4Molecule.jpg
 
+  - title: "POLO: Preference-Guided Multi-Turn Reinforcement Learning for Lead Optimization"
+    authors: <strong>Ziqing Wang</strong>, Yibo Wen, William Pattie, Xiao Luo, Weimin Wu, Jerry Yao-Chieh Hu, Abhishek Pandey, Han Liu, Kaize Ding
+    conference_short: KDD
+    conference: <b><font color="#cc0000">[Oral]</font></b> ACM SIGKDD Conference on Knowledge Discovery and Data Mining <strong>(KDD)</strong>, 2026.
+    year: 2026
+    pdf: https://arxiv.org/pdf/2509.21737.pdf
+    image: ./assets/img/POLO.png
+
   - title: "GlassMol: Interpretable Molecular Property Prediction with Concept Bottleneck Models"
     authors: Oscar Rivera, <strong>Ziqing Wang</strong>, Matthieu Dagommer, Abhishek Pandey, Kaize Ding
     conference_short: PAKDD
@@ -147,14 +155,6 @@ preprints:
     year: 2026
     pdf: https://arxiv.org/pdf/2602.00158.pdf
     image: ./assets/img/RAPTOR.png
-
-  - title: "POLO: Preference-Guided Multi-Turn Reinforcement Learning for Lead Optimization"
-    authors: <strong>Ziqing Wang</strong>, Yibo Wen, William Pattie, Xiao Luo, Weimin Wu, Jerry Yao-Chieh Hu, Abhishek Pandey, Han Liu, Kaize Ding
-    conference_short: arXiv
-    conference: arXiv preprint, 2025.
-    year: 2025
-    pdf: https://arxiv.org/pdf/2509.21737.pdf
-    image: ./assets/img/POLO.png
 
   - title: "Mamba as Decision Maker: Exploring Multi-scale Sequence Modeling in Offline Reinforcement Learning"
     authors: Jiahang Cao, Qiang Zhang, <strong>Ziqing Wang</strong>, Jingkai Sun, Jiaxu Wang, Hao Cheng, Yecheng Shao, Wen Zhao, Gang Han, Yijie Guo, Renjing Xu

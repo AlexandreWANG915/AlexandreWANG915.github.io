@@ -15,12 +15,13 @@ Other than my work, I am a big fan of the Golden State Warriors. My favorite bas
 
 I focus on building **reliable and efficient AI systems for autonomous decision-making**. My current work centers on LLM-based agentic frameworks for high-impact applications in healthcare and biomedicine (e.g., medical visual question answering, clinical reasoning) and AI-driven scientific discovery (e.g., molecular generation and optimization, property prediction), grounded in a long-running line of work on efficient AI including spiking neural networks, efficient transformers, and neural architecture search.
 
-- **Agentic AI / LLM Applications:** agentic LLM reasoning, multi-turn agents, memory-augmented RL, knowledge augmentation, self-supervised LLM tuning. <br>Papers at <strong>ACL</strong> (&times;2), <strong>EMNLP</strong>.
-- **AI for Science:** molecular generation &amp; optimization, property prediction, medical visual question answering. <br>Papers at <strong>ACL</strong> (&times;2), <strong>PAKDD (Oral)</strong>, <strong>EMNLP</strong>.
+- **Agentic AI / LLM Applications:** agentic LLM reasoning, multi-turn agents, memory-augmented RL, knowledge augmentation, self-supervised LLM tuning. <br>Papers at <strong>ACL</strong> (&times;2), <strong>KDD (Oral)</strong>, <strong>EMNLP</strong>.
+- **AI for Science:** molecular generation &amp; optimization, property prediction, medical visual question answering. <br>Papers at <strong>ACL</strong> (&times;2), <strong>KDD (Oral)</strong>, <strong>PAKDD (Oral)</strong>, <strong>EMNLP</strong>.
 - **Efficient AI:** spiking neural networks, efficient transformers, neural architecture search. <br>Papers at <strong>IJCV</strong>, <strong>ICCV</strong>, <strong>AAAI (Oral)</strong>, <strong>NeurIPS</strong> (&times;3), <strong>ECCV</strong>, <strong>IEEE TAI</strong>, <strong>ICASSP (Oral)</strong>, <strong>WACV</strong>, <strong>DSAA</strong>.
 
 ## News
 <div style="height:300px; overflow-y:auto; border:1px solid #ddd; padding:15px; margin-bottom:30px; background-color:#ffffff;">
+- [05/2026] &nbsp;Our paper POLO is accepted to KDD 2026 (Oral)!!<br>
 - [04/2026] &nbsp;Two papers are accepted to ACL 2026, See you in San Diego!!<br>
 - [02/2026] &nbsp;One paper is accepted to PAKDD 2026 (Oral), See you in Hong Kong!!<br>
 - [12/2025] &nbsp;Glad to receive the NVIDIA Academic Research Grant. Thank you, NVIDIA!!<br>
