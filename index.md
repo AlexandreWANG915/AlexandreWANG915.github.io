@@ -25,7 +25,7 @@ I focus on building **reliable and efficient AI systems for autonomous decision-
 - [05/2026] &nbsp;One paper is accepted to IJCV!!<br>
 - [04/2026] &nbsp;Two papers are accepted to ACL 2026, See you in San Diego!!<br>
 - [02/2026] &nbsp;One paper is accepted to PAKDD 2026 (Oral), See you in Hong Kong!!<br>
-- [12/2025] &nbsp;Glad to receive the NVIDIA Academic Research Grant. Thank you, NVIDIA!!<br>
+- [12/2025] &nbsp;Glad to receive the NVIDIA Academic Research Grant.<br>
 - [09/2025] &nbsp;One Paper is accepted to NeurIPS 2025, See you in San Diego!!<br>
 - [08/2025] &nbsp;One Paper is accepted to EMNLP!!<br>
 - [05/2025] &nbsp;Gad to release our survey on LLM-guided Molecular Discovery!!<br>
