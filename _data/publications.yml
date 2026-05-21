@@ -1,4 +1,11 @@
 published:
+  - title: "Dynamic Token Masking in Spiking Neural Network"
+    authors: Yuetong Fang*, <strong>Ziqing Wang*</strong>, Deming Zhou, Hongwei Ren, Shibo Zhou, Renjing Xu (*equal contribution)
+    conference_short: IJCV
+    conference: International Journal of Computer Vision <strong>(IJCV)</strong>, Volume 134, 2026.
+    year: 2026
+    image: ./assets/img/DynamicTokenMasking.png
+
   - title: "MolMem: Memory-Augmented Agentic Reinforcement Learning for Sample-Efficient Molecular Optimization"
     authors: <strong>Ziqing Wang</strong>, Yibo Wen, Abhishek Pandey, Han Liu, Kaize Ding
     conference_short: ACL
@@ -33,13 +40,6 @@ published:
     pdf: https://arxiv.org/pdf/2603.01274.pdf
     code: https://github.com/walleio/GlassMol
     image: ./assets/img/GlassMol.png
-
-  - title: "Dynamic Token Masking in Spiking Neural Network"
-    authors: Yuetong Fang*, <strong>Ziqing Wang*</strong>, Deming Zhou, Hongwei Ren, Shibo Zhou, Renjing Xu (*equal contribution)
-    conference_short: IJCV
-    conference: International Journal of Computer Vision <strong>(IJCV)</strong>, 2025.
-    year: 2025
-    image: ./assets/img/DynamicTokenMasking.png
 
   - title: "Adaptive Calibration: A Unified Conversion Framework of Spiking Neural Networks"
     authors: <strong>Ziqing Wang*</strong>, Yuetong Fang*, Jiahang Cao, Renjing Xu (*equal contribution)

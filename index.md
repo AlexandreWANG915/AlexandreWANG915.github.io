@@ -21,6 +21,7 @@ I focus on building **reliable and efficient AI systems for autonomous decision-
 
 ## News
 <div style="height:300px; overflow-y:auto; border:1px solid #ddd; padding:15px; margin-bottom:30px; background-color:#ffffff;">
+- [05/2026] &nbsp;Our paper Dynamic Token Masking in Spiking Neural Network is published at IJCV!!<br>
 - [05/2026] &nbsp;Our paper POLO is accepted to KDD 2026 (Oral)!!<br>
 - [04/2026] &nbsp;Two papers are accepted to ACL 2026, See you in San Diego!!<br>
 - [02/2026] &nbsp;One paper is accepted to PAKDD 2026 (Oral), See you in Hong Kong!!<br>
