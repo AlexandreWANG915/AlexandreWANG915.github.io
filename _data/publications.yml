@@ -41,6 +41,14 @@ published:
     code: https://github.com/walleio/GlassMol
     image: ./assets/img/GlassMol.png
 
+  - title: "Mamba as Decision Maker: Exploring Multi-scale Sequence Modeling in Offline Reinforcement Learning"
+    authors: Jiahang Cao, Qiang Zhang, <strong>Ziqing Wang</strong>, Jingkai Sun, Jiaxu Wang, Hao Cheng, Yecheng Shao, Wen Zhao, Gang Han, Yijie Guo, Renjing Xu
+    conference_short: ICML-W
+    conference: ICML 2026 Workshop on Decision-Making from Offline Datasets to Online Adaptation <strong>(DEMO)</strong>, 2026.
+    year: 2026
+    pdf: https://arxiv.org/pdf/2406.02013.pdf
+    image: ./assets/img/mamba-dm.png
+
   - title: "Adaptive Calibration: A Unified Conversion Framework of Spiking Neural Networks"
     authors: <strong>Ziqing Wang*</strong>, Yuetong Fang*, Jiahang Cao, Renjing Xu (*equal contribution)
     conference_short: AAAI
@@ -155,11 +163,3 @@ preprints:
     year: 2026
     pdf: https://arxiv.org/pdf/2602.00158.pdf
     image: ./assets/img/RAPTOR.png
-
-  - title: "Mamba as Decision Maker: Exploring Multi-scale Sequence Modeling in Offline Reinforcement Learning"
-    authors: Jiahang Cao, Qiang Zhang, <strong>Ziqing Wang</strong>, Jingkai Sun, Jiaxu Wang, Hao Cheng, Yecheng Shao, Wen Zhao, Gang Han, Yijie Guo, Renjing Xu
-    conference_short: arXiv
-    conference: arXiv preprint, 2024.
-    year: 2024
-    pdf: https://arxiv.org/pdf/2406.02013.pdf
-    image: ./assets/img/mamba-dm.png
