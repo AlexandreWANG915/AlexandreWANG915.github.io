@@ -15,9 +15,9 @@ Other than my work, I am a big fan of the Golden State Warriors. My favorite bas
 
 I focus on building **reliable and efficient AI systems for autonomous decision-making**. My current work centers on LLM-based agentic frameworks for high-impact applications in healthcare and biomedicine (e.g., medical visual question answering, clinical reasoning) and AI-driven scientific discovery (e.g., molecular generation and optimization, property prediction), grounded in a long-running line of work on efficient AI including spiking neural networks, efficient transformers, and neural architecture search.
 
-- **Agentic AI / LLM Applications:** agentic LLM reasoning, multi-turn agents, memory-augmented RL, knowledge augmentation, self-supervised LLM tuning. <br>Papers at <strong>ACL</strong> (&times;2), <strong>KDD (Oral)</strong>, <strong>EMNLP</strong>.
-- **AI for Science:** molecular generation &amp; optimization, property prediction, medical visual question answering. <br>Papers at <strong>ACL</strong> (&times;2), <strong>KDD (Oral)</strong>, <strong>PAKDD (Oral)</strong>, <strong>EMNLP</strong>.
-- **Efficient AI:** spiking neural networks, efficient transformers, neural architecture search. <br>Papers at <strong>IJCV</strong>, <strong>ICCV</strong>, <strong>AAAI (Oral)</strong>, <strong>NeurIPS</strong> (&times;3), <strong>ECCV</strong>, <strong>IEEE TAI</strong>, <strong>ICASSP (Oral)</strong>, <strong>WACV</strong>, <strong>DSAA</strong>.
+- **Agentic AI / LLM Applications:** agentic LLM reasoning, multi-turn agents, memory-augmented RL, knowledge augmentation, self-supervised LLM tuning. <br>Papers at <strong>ACL'26</strong> (&times;2), <strong>KDD'26 (Oral)</strong>, <strong>EMNLP'25</strong>.
+- **AI for Science:** molecular generation &amp; optimization, property prediction, medical visual question answering. <br>Papers at <strong>ACL'26</strong> (&times;2), <strong>KDD'26 (Oral)</strong>, <strong>PAKDD'26 (Oral)</strong>, <strong>EMNLP'25</strong>.
+- **Efficient AI:** spiking neural networks, efficient transformers, neural architecture search. <br>Papers at <strong>IJCV'26</strong>, <strong>ICCV'23</strong>, <strong>AAAI'25 (Oral)</strong>, <strong>NeurIPS'24</strong> (&times;2), <strong>NeurIPS'25</strong>, <strong>ECCV'24</strong>, <strong>IEEE TAI'24</strong>, <strong>ICASSP'24 (Oral)</strong>, <strong>WACV'24</strong>, <strong>DSAA'22</strong>.
 
 ## News
 <div style="height:300px; overflow-y:auto; border:1px solid #ddd; padding:15px; margin-bottom:30px; background-color:#ffffff;">

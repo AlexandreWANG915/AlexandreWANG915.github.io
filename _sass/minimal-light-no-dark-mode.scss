@@ -363,6 +363,10 @@ section p, section li {
   text-wrap: pretty;
 }
 
+section ul, section ol {
+  padding-left: 1.2em;
+}
+
 small {
   font-size:11px;
 }
