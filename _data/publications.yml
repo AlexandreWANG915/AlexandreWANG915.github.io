@@ -148,6 +148,15 @@ published:
     image: ./assets/img/dbscan.png
 
 preprints:
+  - title: "A Survey of the OpenClaw Ecosystem: From Platform Extensibility to Constraint Design"
+    authors: <strong>Ziqing Wang</strong>, et al.
+    conference_short: Survey
+    conference: Preprint, 2026.
+    year: 2026
+    pdf: https://github.com/REAL-Lab-NU/Awesome-OpenClaw-Papers/blob/main/OpenClaw_Survey.pdf
+    code: https://github.com/REAL-Lab-NU/Awesome-OpenClaw-Papers
+    image: ./assets/img/OpenClaw.png
+
   - title: "HopRank: Self-Supervised LLM Preference-Tuning on Graphs for Few-Shot Node Classification"
     authors: <strong>Ziqing Wang</strong>, Kaize Ding
     conference_short: arXiv
