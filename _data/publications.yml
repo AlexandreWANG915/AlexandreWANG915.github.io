@@ -148,6 +148,39 @@ published:
     image: ./assets/img/dbscan.png
 
 preprints:
+  - title: "Can Post-Training Turn LLMs into Good Medical Coders? An Empirical Study of Generative ICD Coding"
+    authors: <strong>Ziqing Wang</strong>, Weihao Li, Shijie Chen, Yuan Luo, Kaize Ding
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    year: 2026
+    pdf: https://arxiv.org/pdf/2606.13940.pdf
+    code: https://github.com/AlexandreWANG915/LLM4ICD
+    image: ./assets/img/LLM4ICD.png
+
+  - title: "MedLatentDx: Latent Multi-Agent Communication for Cross-Hospital Rare-Disease Diagnosis"
+    authors: <strong>Ziqing Wang</strong>, Lili Zhao, Kaize Ding
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    year: 2026
+    pdf: https://arxiv.org/pdf/2606.13945.pdf
+    image: ./assets/img/MedLatentDx.png
+
+  - title: "Predicting Immune Biomarkers with MultiModal Mixture-of-Expert Pathology Foundation Models Empowers Precision Oncology"
+    authors: Tianyu Liu*, <strong>Ziqing Wang*</strong>, Zhaokang Liang*, Tong Ding, Peter Humphrey, Lorraine Colón-Cartagena, Emily Ling-Lin Pai, Kenneth Tou En Chang, Mohamed Kahila, Jonathan Chong Kai Liew, Tinglin Huang, Rex Ying, Kaize Ding, Faisal Mahmood, Wengong Jin (*equal contribution)
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    year: 2026
+    pdf: https://arxiv.org/pdf/2606.18123.pdf
+    image: ./assets/img/MixTIME.png
+
+  - title: "Benchmarking AI Agents for Addressing Scientific Challenges Across Scales"
+    authors: Tianyu Liu, Allen Xin Wang, Antonia Panescu, Lisa Xinyi Chen, Wenxin Long, Xinyu Wei, Yueqian Jing, Ziyao Zeng, Jihang Chen, Sihan Jiang, <strong>Ziqing Wang</strong>, et al.
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    year: 2026
+    pdf: https://arxiv.org/pdf/2606.12736.pdf
+    image: ./assets/img/SciAgentArena.png
+
   - title: "A Survey of the OpenClaw Ecosystem: From Platform Extensibility to Constraint Design"
     authors: <strong>Ziqing Wang</strong>, Qijie Zhu, Yu Xiao, Marcelina A. Przespolewska, Erik C. Nisbet, Han Liu, Kaize Ding
     conference_short: Survey

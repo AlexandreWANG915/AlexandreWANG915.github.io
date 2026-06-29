@@ -21,6 +21,7 @@ I focus on building **reliable and efficient AI systems for autonomous decision-
 
 ## News
 <div style="height:300px; overflow-y:auto; border:1px solid #ddd; padding:15px; margin-bottom:30px; background-color:#ffffff;">
+- [06/2026] &nbsp;Glad to receive the KDD 2026 Student Travel Grant.<br>
 - [05/2026] &nbsp;Glad to release our survey on the OpenClaw ecosystem!!<br>
 - [05/2026] &nbsp;Our paper POLO is accepted to KDD 2026 (Oral)!!<br>
 - [05/2026] &nbsp;One paper is accepted to IJCV!!<br>
