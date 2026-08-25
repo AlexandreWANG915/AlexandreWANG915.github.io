@@ -21,6 +21,7 @@ I focus on building **reliable and efficient AI systems for autonomous decision-
 
 ## News
 <div style="height:300px; overflow-y:auto; border:1px solid #ddd; padding:15px; margin-bottom:30px; background-color:#ffffff;">
+- [08/2026] &nbsp;One paper is accepted to EMNLP!!<br>
 - [07/2026] &nbsp;Glad to receive the OpenAI Academic Grant. Thank you, OpenAI!!<br>
 - [06/2026] &nbsp;Glad to receive the KDD 2026 Student Travel Grant.<br>
 - [05/2026] &nbsp;Glad to release our survey on the OpenClaw ecosystem!!<br>

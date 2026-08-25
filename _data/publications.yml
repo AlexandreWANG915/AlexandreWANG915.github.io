@@ -1,4 +1,13 @@
 published:
+  - title: "Can Post-Training Turn LLMs into Good Medical Coders? An Empirical Study of Generative ICD Coding"
+    authors: <strong>Ziqing Wang</strong>, Weihao Li, Shijie Chen, Yuan Luo, Kaize Ding
+    conference_short: EMNLP
+    conference: Findings of the Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2026.
+    year: 2026
+    pdf: https://arxiv.org/pdf/2606.13940.pdf
+    code: https://github.com/AlexandreWANG915/LLM4ICD
+    image: ./assets/img/LLM4ICD.png
+
   - title: "MolMem: Memory-Augmented Agentic Reinforcement Learning for Sample-Efficient Molecular Optimization"
     authors: <strong>Ziqing Wang</strong>, Yibo Wen, Abhishek Pandey, Han Liu, Kaize Ding
     conference_short: ACL
@@ -148,15 +157,6 @@ published:
     image: ./assets/img/dbscan.png
 
 preprints:
-  - title: "Can Post-Training Turn LLMs into Good Medical Coders? An Empirical Study of Generative ICD Coding"
-    authors: <strong>Ziqing Wang</strong>, Weihao Li, Shijie Chen, Yuan Luo, Kaize Ding
-    conference_short: arXiv
-    conference: arXiv preprint, 2026.
-    year: 2026
-    pdf: https://arxiv.org/pdf/2606.13940.pdf
-    code: https://github.com/AlexandreWANG915/LLM4ICD
-    image: ./assets/img/LLM4ICD.png
-
   - title: "MedLatentDx: Latent Multi-Agent Communication for Cross-Hospital Rare-Disease Diagnosis"
     authors: <strong>Ziqing Wang</strong>, Lili Zhao, Kaize Ding
     conference_short: arXiv
