@@ -1,4 +1,12 @@
 published:
+  - title: "RAPTOR: Ridge-Adaptive Logistic Probes"
+    authors: Ziqi Gao, Yaotian Zhu, Qingcheng Zeng, Xu Zhao, <strong>Ziqing Wang</strong>, Feng Ruan, Kaize Ding
+    conference_short: NeurIPS
+    conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2026.
+    year: 2026
+    pdf: https://arxiv.org/pdf/2602.00158.pdf
+    image: ./assets/img/RAPTOR.png
+
   - title: "Can Post-Training Turn LLMs into Good Medical Coders? An Empirical Study of Generative ICD Coding"
     authors: <strong>Ziqing Wang</strong>, Weihao Li, Shijie Chen, Yuan Luo, Kaize Ding
     conference_short: EMNLP
@@ -197,11 +205,3 @@ preprints:
     year: 2026
     pdf: https://arxiv.org/pdf/2604.17271.pdf
     image: ./assets/img/HopRank.png
-
-  - title: "RAPTOR: Ridge-Adaptive Logistic Probes"
-    authors: Ziqi Gao, Yaotian Zhu, Qingcheng Zeng, Xu Zhao, <strong>Ziqing Wang</strong>, Feng Ruan, Kaize Ding
-    conference_short: arXiv
-    conference: arXiv preprint, 2026.
-    year: 2026
-    pdf: https://arxiv.org/pdf/2602.00158.pdf
-    image: ./assets/img/RAPTOR.png
