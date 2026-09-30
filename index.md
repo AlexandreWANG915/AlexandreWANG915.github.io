@@ -21,6 +21,7 @@ I focus on building **reliable and efficient AI systems for autonomous decision-
 
 ## News
 <div style="height:300px; overflow-y:auto; border:1px solid #ddd; padding:15px; margin-bottom:30px; background-color:#ffffff;">
+- [09/2026] &nbsp;Glad to receive an ACCESS Accelerate computing allocation (3M ACCESS credits)!!<br>
 - [09/2026] &nbsp;One paper is accepted to NeurIPS 2026!!<br>
 - [08/2026] &nbsp;One paper is accepted to EMNLP!!<br>
 - [07/2026] &nbsp;Glad to receive the OpenAI Academic Grant. Thank you, OpenAI!!<br>
