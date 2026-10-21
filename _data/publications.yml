@@ -1,4 +1,13 @@
 published:
+  - title: "A Survey of the OpenClaw Ecosystem: From Platform Extensibility to Constraint Design"
+    authors: <strong>Ziqing Wang</strong>, Qijie Zhu, Yu Xiao, Marcelina A. Przespolewska, Erik C. Nisbet, Han Liu, Kaize Ding
+    conference_short: TMLR
+    conference: Transactions on Machine Learning Research <strong>(TMLR)</strong>, 2026.
+    year: 2026
+    pdf: https://github.com/REAL-Lab-NU/Awesome-OpenClaw-Papers/blob/main/OpenClaw_Survey.pdf
+    code: https://github.com/REAL-Lab-NU/Awesome-OpenClaw-Papers
+    image: ./assets/img/OpenClaw.png
+
   - title: "RAPTOR: Ridge-Adaptive Logistic Probes"
     authors: Ziqi Gao, Yaotian Zhu, Qingcheng Zeng, Xu Zhao, <strong>Ziqing Wang</strong>, Feng Ruan, Kaize Ding
     conference_short: NeurIPS
@@ -188,15 +197,6 @@ preprints:
     year: 2026
     pdf: https://arxiv.org/pdf/2606.12736.pdf
     image: ./assets/img/SciAgentArena.png
-
-  - title: "A Survey of the OpenClaw Ecosystem: From Platform Extensibility to Constraint Design"
-    authors: <strong>Ziqing Wang</strong>, Qijie Zhu, Yu Xiao, Marcelina A. Przespolewska, Erik C. Nisbet, Han Liu, Kaize Ding
-    conference_short: Survey
-    conference: Preprint, 2026.
-    year: 2026
-    pdf: https://github.com/REAL-Lab-NU/Awesome-OpenClaw-Papers/blob/main/OpenClaw_Survey.pdf
-    code: https://github.com/REAL-Lab-NU/Awesome-OpenClaw-Papers
-    image: ./assets/img/OpenClaw.png
 
   - title: "HopRank: Self-Supervised LLM Preference-Tuning on Graphs for Few-Shot Node Classification"
     authors: <strong>Ziqing Wang</strong>, Kaize Ding
