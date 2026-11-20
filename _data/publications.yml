@@ -1,5 +1,6 @@
 published:
   - title: "A Survey of the OpenClaw Ecosystem: From Platform Extensibility to Constraint Design"
+    id: openclaw-survey
     authors: <strong>Ziqing Wang</strong>, Qijie Zhu, Yu Xiao, Marcelina A. Przespolewska, Erik C. Nisbet, Han Liu, Kaize Ding
     conference_short: TMLR
     conference: Transactions on Machine Learning Research <strong>(TMLR)</strong>, 2026.
@@ -7,16 +8,24 @@ published:
     pdf: https://github.com/REAL-Lab-NU/Awesome-OpenClaw-Papers/blob/main/OpenClaw_Survey.pdf
     code: https://github.com/REAL-Lab-NU/Awesome-OpenClaw-Papers
     image: ./assets/img/OpenClaw.png
+    tags: ["Agentic AI / LLMs"]
+    abstract: >-
+      Large language models have evolved into autonomous agents capable of invoking tools, using memory, and taking actions in real-world environments. Yet despite this progress, many agent systems remain difficult for ordinary users to adopt directly. OpenClaw, an open-source and self-hosted agent platform, addresses this gap through a local-first, messaging-native, and skill-extensible design that connects everyday messaging applications to LLM-powered agents. This design makes OpenClaw one of the first open personal-agent ecosystems, with ClawHub for shared Skills, Heartbeat for proactive background turns, and Moltbook as an agent-only social network. We survey this emerging ecosystem and show that the literature repeatedly highlights the same tradeoff: the openness that makes OpenClaw extensible also creates new governance, security, social, and deployment challenges. We organize the survey around four dimensions that trace this tradeoff from platform design to its ecosystem-level consequences: Platform, where open Skills enable rapid capability growth but create new governance problems; Security, where open Tools, Skills, Memory, and background execution expand the attack surface; Societies, where Moltbook reveals a gap between social appearance and reliable collective intelligence; and Deployment, where trustworthy use in robotics, healthcare, and scientific research depends on limiting agent freedom rather than expanding it. We also catalog OpenClaw benchmarks and outline future directions for treating constraints as core parts of open agent platform design.
 
   - title: "RAPTOR: Ridge-Adaptive Logistic Probes"
+    id: raptor
     authors: Ziqi Gao, Yaotian Zhu, Qingcheng Zeng, Xu Zhao, <strong>Ziqing Wang</strong>, Feng Ruan, Kaize Ding
     conference_short: NeurIPS
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2026.
     year: 2026
     pdf: https://arxiv.org/pdf/2602.00158.pdf
     image: ./assets/img/RAPTOR.png
+    tags: ["Agentic AI / LLMs"]
+    abstract: >-
+      Probing studies what information is encoded in a frozen LLM's layer representations by training a lightweight predictor on top of them. Beyond analysis, probes are often used operationally in probe-then-steer pipelines: a learned concept vector is extracted from a probe and injected via additive activation steering by adding it to a layer representation during the forward pass. The effectiveness of this pipeline hinges on estimating concept vectors that are accurate, directionally stable under ablation, and inexpensive to obtain. Motivated by these desiderata, we propose RAPTOR (Ridge-Adaptive Logistic Probe), a simple L2-regularized logistic probe whose validation-tuned ridge strength yields concept vectors from normalized weights. Across extensive experiments on instruction-tuned LLMs and human-written concept datasets, RAPTOR matches or exceeds strong baselines in accuracy while achieving competitive directional stability and substantially lower training cost; these quantitative results are supported by qualitative downstream steering demonstrations. Finally, using the Convex Gaussian Min-max Theorem (CGMT), we provide a mechanistic characterization of ridge logistic regression in an idealized Gaussian teacher-student model in the high-dimensional few-shot regime, explaining how penalty strength mediates probe accuracy and concept-vector stability and yielding structural predictions that qualitatively align with trends observed on real LLM embeddings.
 
   - title: "Can Post-Training Turn LLMs into Good Medical Coders? An Empirical Study of Generative ICD Coding"
+    id: llm4icd
     authors: <strong>Ziqing Wang</strong>, Weihao Li, Shijie Chen, Yuan Luo, Kaize Ding
     conference_short: EMNLP
     conference: Findings of the Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2026.
@@ -24,8 +33,12 @@ published:
     pdf: https://arxiv.org/pdf/2606.13940.pdf
     code: https://github.com/AlexandreWANG915/LLM4ICD
     image: ./assets/img/LLM4ICD.png
+    tags: ["Agentic AI / LLMs", "AI for Science"]
+    abstract: >-
+      Automated International Classification of Diseases (ICD) coding is a core medical-coding task for billing, epidemiology, and clinical decision support. Generative large language models (LLMs) are often reported as weak medical coders, but this finding mainly comes from inference-time settings such as prompting, retrieval, reranking, or tool use, leaving the role of task-specific post-training underexplored. We present a controlled empirical study of post-training for generative ICD coding, comparing discriminative baselines with LLM coders across prompting, supervised fine-tuning, and reinforcement learning under a common protocol and metric set. To our knowledge, this is the first study to evaluate RL-based post-training for generative LLM coders in ICD coding. We further introduce PHI, a diagnostic curriculum that extends GRPO to refine missed-code cases. Our results show that prompting-only evaluation substantially underestimates the potential of LLMs for ICD coding. SFT provides the main capability jump, GRPO further improves code-set prediction beyond SFT, and PHI provides targeted gains on macro-level performance. These findings suggest that the main bottleneck is not the generative formulation alone, but how the model is adapted and optimized for full-taxonomy recall. We release our code, data splits, and checkpoints at https://github.com/AlexandreWANG915/LLM4ICD.
 
   - title: "MolMem: Memory-Augmented Agentic Reinforcement Learning for Sample-Efficient Molecular Optimization"
+    id: molmem
     authors: <strong>Ziqing Wang</strong>, Yibo Wen, Abhishek Pandey, Han Liu, Kaize Ding
     conference_short: ACL
     conference: Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026.
@@ -33,8 +46,12 @@ published:
     pdf: https://arxiv.org/pdf/2604.12237.pdf
     code: https://github.com/REAL-Lab-NU/MolMem
     image: ./assets/img/MolMem.png
+    tags: ["Agentic AI / LLMs", "AI for Science"]
+    abstract: >-
+      In drug discovery, molecular optimization aims to iteratively refine a lead compound to improve molecular properties while preserving structural similarity to the original molecule. However, each oracle evaluation is expensive, making sample efficiency a key challenge for existing methods under a limited oracle budget. Trial-and-error approaches require many oracle calls, while methods that leverage external knowledge tend to reuse familiar templates and struggle on challenging objectives. A key missing piece is long-term memory that can ground decisions and provide reusable insights for future optimizations. To address this, we present MolMem (\textbf{Mol}ecular optimization with \textbf{Mem}ory), a multi-turn agentic reinforcement learning (RL) framework with a dual-memory system. Specifically, MolMem uses Static Exemplar Memory to retrieve relevant exemplars for cold-start grounding, and Evolving Skill Memory to distill successful trajectories into reusable strategies. Built on this memory-augmented formulation, we train the policy with dense step-wise rewards, turning costly rollouts into long-term knowledge that improves future optimization. Extensive experiments show that MolMem achieves 90\% success on single-property tasks (1.5× over the best baseline) and 52\% on multi-property tasks using only 500 oracle calls. Our code is available at https://github.com/REAL-Lab-NU/MolMem.
 
   - title: "A Survey of Large Language Models for Text-Guided Molecular Discovery: from Molecule Generation to Optimization"
+    id: llm4mol-survey
     authors: <strong>Ziqing Wang*</strong>, Kexin Zhang*, Zihan Zhao, Yibo Wen, Abhishek Pandey, Han Liu, Kaize Ding (*equal contribution)
     conference_short: ACL
     conference: Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026.
@@ -42,23 +59,33 @@ published:
     pdf: https://arxiv.org/pdf/2505.16094.pdf
     code: https://github.com/REAL-Lab-NU/Awesome-LLM-Centric-Molecular-Discovery
     image: ./assets/img/LLM4Molecule.jpg
+    tags: ["Agentic AI / LLMs", "AI for Science"]
+    abstract: >-
+      Large language models (LLMs) are introducing a paradigm shift in molecular discovery by enabling text-guided interaction with chemical spaces through natural language, symbolic notations, with emerging extensions to incorporate multi-modal inputs. To advance the new field of LLM for molecular discovery, this survey provides an up-to-date and forward-looking review of the emerging use of LLMs for two central tasks: molecule generation and molecule optimization. Based on our proposed taxonomy for both problems, we analyze representative techniques in each category, highlighting how LLM capabilities are leveraged across different learning settings. In addition, we include the commonly used datasets and evaluation protocols. We conclude by discussing key challenges and future directions, positioning this survey as a resource for researchers working at the intersection of LLMs and molecular science. A continuously updated reading list is available at https://github.com/REAL-Lab-NU/Awesome-LLM-Centric-Molecular-Discovery.
 
   - title: "POLO: Preference-Guided Multi-Turn Reinforcement Learning for Lead Optimization"
+    id: polo
     authors: <strong>Ziqing Wang</strong>, Yibo Wen, William Pattie, Xiao Luo, Weimin Wu, Jerry Yao-Chieh Hu, Abhishek Pandey, Han Liu, Kaize Ding
     conference_short: KDD
     conference: <b><font color="#cc0000">[Oral]</font></b> ACM SIGKDD Conference on Knowledge Discovery and Data Mining <strong>(KDD)</strong>, 2026.
     year: 2026
     pdf: https://arxiv.org/pdf/2509.21737.pdf
     image: ./assets/img/POLO.png
+    tags: ["Agentic AI / LLMs", "AI for Science"]
+    abstract: >-
+      Lead optimization in drug discovery requires efficiently navigating vast chemical space through iterative cycles to enhance molecular properties while preserving structural similarity to the original lead compound. Despite recent advances, traditional optimization methods struggle with sample efficiency-achieving good optimization performance with limited oracle evaluations. Large Language Models (LLMs) provide a promising approach through their in-context learning and instruction following capabilities, which align naturally with these iterative processes. However, existing LLM-based methods fail to leverage this strength, treating each optimization step independently. To address this, we present POLO (Preference-guided multi-turn Optimization for Lead Optimization), which enables LLMs to learn from complete optimization trajectories rather than isolated steps. At its core, POLO introduces Preference-Guided Policy Optimization (PGPO), a novel reinforcement learning algorithm that extracts learning signals at two complementary levels: trajectory-level optimization reinforces successful strategies, while turn-level preference learning provides dense comparative feedback by ranking intermediate molecules within each trajectory. Through this dual-level learning from intermediate evaluation, POLO achieves superior sample efficiency by fully exploiting each costly oracle call. Extensive experiments demonstrate that POLO achieves 84% average success rate on single-property tasks (2.3x better than baselines) and 50% on multi-property tasks using only 500 oracle evaluations, significantly advancing the state-of-the-art in sample-efficient molecular optimization.
 
   - title: "Dynamic Token Masking in Spiking Neural Network"
+    id: dynamic-token-masking
     authors: Yuetong Fang*, <strong>Ziqing Wang*</strong>, Deming Zhou, Hongwei Ren, Shibo Zhou, Renjing Xu (*equal contribution)
     conference_short: IJCV
     conference: International Journal of Computer Vision <strong>(IJCV)</strong>, Volume 134, 2026.
     year: 2026
     image: ./assets/img/DynamicTokenMasking.png
+    tags: ["Efficient AI"]
 
   - title: "GlassMol: Interpretable Molecular Property Prediction with Concept Bottleneck Models"
+    id: glassmol
     authors: Oscar Rivera, <strong>Ziqing Wang</strong>, Matthieu Dagommer, Abhishek Pandey, Kaize Ding
     conference_short: PAKDD
     conference: <b><font color="#cc0000">[Oral]</font></b> Pacific-Asia Conference on Knowledge Discovery and Data Mining <strong>(PAKDD)</strong>, 2026.
@@ -66,16 +93,24 @@ published:
     pdf: https://arxiv.org/pdf/2603.01274.pdf
     code: https://github.com/walleio/GlassMol
     image: ./assets/img/GlassMol.png
+    tags: ["AI for Science"]
+    abstract: >-
+      Machine learning accelerates molecular property prediction, yet state-of-the-art Large Language Models and Graph Neural Networks operate as black boxes. In drug discovery, where safety is critical, this opacity risks masking false correlations and excluding human expertise. Existing interpretability methods suffer from the effectiveness-trustworthiness trade-off: explanations may fail to reflect a model's true reasoning, degrade performance, or lack domain grounding. Concept Bottleneck Models (CBMs) offer a solution by projecting inputs to human-interpretable concepts before readout, ensuring that explanations are inherently faithful to the decision process. However, adapting CBMs to chemistry faces three challenges: the Relevance Gap (selecting task-relevant concepts from a large descriptor space), the Annotation Gap (obtaining concept supervision for molecular data), and the Capacity Gap (degrading performance due to bottleneck constraints). We introduce GlassMol, a model-agnostic CBM that addresses these gaps through automated concept curation and LLM-guided concept selection. Experiments across thirteen benchmarks demonstrate that \method generally matches or exceeds black-box baselines, suggesting that interpretability does not sacrifice performance and challenging the commonly assumed trade-off. Code is available at https://github.com/walleio/GlassMol.
 
   - title: "Mamba as Decision Maker: Exploring Multi-scale Sequence Modeling in Offline Reinforcement Learning"
+    id: mamba-dm
     authors: Jiahang Cao, Qiang Zhang, <strong>Ziqing Wang</strong>, Jingkai Sun, Jiaxu Wang, Hao Cheng, Yecheng Shao, Wen Zhao, Gang Han, Yijie Guo, Renjing Xu
     conference_short: ICML-W
     conference: ICML 2026 Workshop on Decision-Making from Offline Datasets to Online Adaptation <strong>(DEMO)</strong>, 2026.
     year: 2026
     pdf: https://arxiv.org/pdf/2406.02013.pdf
     image: ./assets/img/mamba-dm.png
+    tags: ["Efficient AI"]
+    abstract: >-
+      Sequential modeling has demonstrated remarkable capabilities in offline reinforcement learning (RL), with Decision Transformer (DT) being one of the most notable representatives, achieving significant success. However, RL trajectories possess unique properties to be distinguished from the conventional sequence (e.g., text or audio): (1) local correlation, where the next states in RL are theoretically determined solely by current states and actions based on the Markov Decision Process (MDP), and (2) global correlation, where each step's features are related to long-term historical information due to the time-continuous nature of trajectories. In this paper, we propose a novel action sequence predictor, named Mamba Decision Maker (MambaDM), where Mamba is expected to be a promising alternative for sequence modeling paradigms, owing to its efficient modeling of multi-scale dependencies. In particular, we introduce a novel mixer module that proficiently extracts and integrates both global and local features of the input sequence, effectively capturing interrelationships in RL datasets. Extensive experiments demonstrate that MambaDM achieves state-of-the-art performance in Atari and OpenAI Gym datasets. Furthermore, we empirically investigate the scaling laws of MambaDM, finding that increasing model size does not bring performance improvement, but scaling the dataset amount by 2x for MambaDM can obtain up to 33.7% score improvement on Atari dataset. This paper delves into the sequence modeling capabilities of MambaDM in the RL domain, paving the way for future advancements in robust and efficient decision-making systems.
 
   - title: "Adaptive Calibration: A Unified Conversion Framework of Spiking Neural Networks"
+    id: adaptive-calibration
     authors: <strong>Ziqing Wang*</strong>, Yuetong Fang*, Jiahang Cao, Renjing Xu (*equal contribution)
     conference_short: AAAI
     conference: <b><font color="#cc0000">[Oral]</font></b> AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2025.
@@ -83,16 +118,24 @@ published:
     pdf: https://arxiv.org/pdf/2412.16219.pdf
     code: https://github.com/bic-L/burst-ann2snn
     image: ./assets/img/BURST.png
+    tags: ["Efficient AI"]
+    abstract: >-
+      Spiking Neural Networks (SNNs) are seen as an energy-efficient alternative to traditional Artificial Neural Networks (ANNs), but the performance gap remains a challenge. While this gap is narrowing through ANN-to-SNN conversion, substantial computational resources are still needed, and the energy efficiency of converted SNNs cannot be ensured. To address this, we present a unified training-free conversion framework that significantly enhances both the performance and efficiency of converted SNNs. Inspired by the biological nervous system, we propose a novel Adaptive-Firing Neuron Model (AdaFire), which dynamically adjusts firing patterns across different layers to substantially reduce the Unevenness Error - the primary source of error of converted SNNs within limited inference timesteps. We further introduce two efficiency-enhancing techniques: the Sensitivity Spike Compression (SSC) technique for reducing spike operations, and the Input-aware Adaptive Timesteps (IAT) technique for decreasing latency. These methods collectively enable our approach to achieve state-of-the-art performance while delivering significant energy savings of up to 70.1%, 60.3%, and 43.1% on CIFAR-10, CIFAR-100, and ImageNet datasets, respectively. Extensive experiments across 2D, 3D, event-driven classification tasks, object detection, and segmentation tasks, demonstrate the effectiveness of our method in various domains. The code is available at: https://github.com/bic-L/burst-ann2snn.
 
   - title: "Spiking Neural Networks Need High Frequency Information"
+    id: maxformer
     authors: Yuetong Fang, Deming Zhou, <strong>Ziqing Wang</strong>, Hongwei Ren, Zecui Zeng, Lusong Li, Shibo Zhou, Renjing Xu
     conference_short: NeurIPS
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
     year: 2025
     pdf: https://arxiv.org/pdf/2505.18608.pdf
     image: ./assets/img/MaxFormer.jpg
+    tags: ["Efficient AI"]
+    abstract: >-
+      Spiking Neural Networks promise brain-inspired and energy-efficient computation by transmitting information through binary (0/1) spikes. Yet, their performance still lags behind that of artificial neural networks, often assumed to result from information loss caused by sparse and binary activations. In this work, we challenge this long-standing assumption and reveal a previously overlooked frequency bias: spiking neurons inherently suppress high-frequency components and preferentially propagate low-frequency information. This frequency-domain imbalance, we argue, is the root cause of degraded feature representation in SNNs. Empirically, on Spiking Transformers, adopting Avg-Pooling (low-pass) for token mixing lowers performance to 76.73% on Cifar-100, whereas replacing it with Max-Pool (high-pass) pushes the top-1 accuracy to 79.12%. Accordingly, we introduce Max-Former that restores high-frequency signals through two frequency-enhancing operators: (1) extra Max-Pool in patch embedding, and (2) Depth-Wise Convolution in place of self-attention. Notably, Max-Former attains 82.39% top-1 accuracy on ImageNet using only 63.99M parameters, surpassing Spikformer (74.81%, 66.34M) by +7.58%. Extending our insight beyond transformers, our Max-ResNet-18 achieves state-of-the-art performance on convolution-based benchmarks: 97.17% on CIFAR-10 and 83.06% on CIFAR-100. We hope this simple yet effective solution inspires future research to explore the distinctive nature of spiking neural networks. Code is available: https://github.com/bic-L/MaxFormer.
 
   - title: "AMANDA: Agentic Medical Knowledge Augmentation for Data-Efficient Medical Visual Question Answering"
+    id: amanda
     authors: <strong>Ziqing Wang</strong>, Chengsheng Mao, Xiaole Wen, Yuan Luo, Kaize Ding
     conference_short: EMNLP
     conference: Findings of the Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025.
@@ -100,8 +143,12 @@ published:
     pdf: https://arxiv.org/pdf/2510.02328.pdf
     code: https://github.com/REAL-Lab-NU/AMANDA
     image: ./assets/img/amanda.jpg
+    tags: ["Agentic AI / LLMs", "AI for Science"]
+    abstract: >-
+      Medical Multimodal Large Language Models (Med-MLLMs) have shown great promise in medical visual question answering (Med-VQA). However, when deployed in low-resource settings where abundant labeled data are unavailable, existing Med-MLLMs commonly fail due to their medical reasoning capability bottlenecks: (i) the intrinsic reasoning bottleneck that ignores the details from the medical image; (ii) the extrinsic reasoning bottleneck that fails to incorporate specialized medical knowledge. To address those limitations, we propose AMANDA, a training-free agentic framework that performs medical knowledge augmentation via LLM agents. Specifically, our intrinsic medical knowledge augmentation focuses on coarse-to-fine question decomposition for comprehensive diagnosis, while extrinsic medical knowledge augmentation grounds the reasoning process via biomedical knowledge graph retrieval. Extensive experiments across eight Med-VQA benchmarks demonstrate substantial improvements in both zero-shot and few-shot Med-VQA settings. The code is available at https://github.com/REAL-Lab-NU/AMANDA.
 
   - title: "Autonomous Driving with Spiking Neural Networks"
+    id: sad
     authors: Rui-jie Zhu*, <strong>Ziqing Wang*</strong>, Leilani Gilpin, Jason K. Eshraghian (*equal contribution)
     conference_short: NeurIPS
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2024.
@@ -109,8 +156,12 @@ published:
     pdf: https://arxiv.org/pdf/2405.19687.pdf
     code: https://github.com/ridgerchu/SAD
     image: ./assets/img/SAD.png
+    tags: ["Efficient AI"]
+    abstract: >-
+      Autonomous driving demands an integrated approach that encompasses perception, prediction, and planning, all while operating under strict energy constraints to enhance scalability and environmental sustainability. We present Spiking Autonomous Driving (SAD), the first unified Spiking Neural Network (SNN) to address the energy challenges faced by autonomous driving systems through its event-driven and energy-efficient nature. SAD is trained end-to-end and consists of three main modules: perception, which processes inputs from multi-view cameras to construct a spatiotemporal bird's eye view; prediction, which utilizes a novel dual-pathway with spiking neurons to forecast future states; and planning, which generates safe trajectories considering predicted occupancy, traffic rules, and ride comfort. Evaluated on the nuScenes dataset, SAD achieves competitive performance in perception, prediction, and planning tasks, while drawing upon the energy efficiency of SNNs. This work highlights the potential of neuromorphic computing to be applied to energy-efficient autonomous driving, a critical step toward sustainable and safety-critical automotive technology. Our code is available at \url{https://github.com/ridgerchu/SAD}.
 
   - title: "Spiking Neural Network as Adaptive Event Stream Slicer"
+    id: spikeslicer
     authors: Jiahang Cao*, Mingyuan Sun*, <strong>Ziqing Wang*</strong>, Hao Cheng, Qiang Zhang, Shibo Zhou, Renjing Xu (*equal contribution)
     conference_short: NeurIPS
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2024.
@@ -118,8 +169,12 @@ published:
     pdf: https://arxiv.org/pdf/2410.02249.pdf
     code: https://github.com/AndyCao1125/SpikeSlicer
     image: ./assets/img/BEEF.png
+    tags: ["Efficient AI"]
+    abstract: >-
+      Event-based cameras are attracting significant interest as they provide rich edge information, high dynamic range, and high temporal resolution. Many state-of-the-art event-based algorithms rely on splitting the events into fixed groups, resulting in the omission of crucial temporal information, particularly when dealing with diverse motion scenarios (\eg, high/low speed).In this work, we propose SpikeSlicer, a novel-designed plug-and-play event processing method capable of splitting events stream adaptively.SpikeSlicer utilizes a low-energy spiking neural network (SNN) to trigger event slicing. To guide the SNN to fire spikes at optimal time steps, we propose the Spiking Position-aware Loss (SPA-Loss) to modulate the neuron's state. Additionally, we develop a Feedback-Update training strategy that refines the slicing decisions using feedback from the downstream artificial neural network (ANN). Extensive experiments demonstrate that our method yields significant performance improvements in event-based object tracking and recognition. Notably, SpikeSlicer provides a brand-new SNN-ANN cooperation paradigm, where the SNN acts as an efficient, low-energy data processor to assist the ANN in improving downstream performance, injecting new perspectives and potential avenues of exploration. Our code is available at https://github.com/AndyCao1125/SpikeSlicer.
 
   - title: Spiking Wavelet Transformer
+    id: swt
     authors: Yuetong Fang*, <strong>Ziqing Wang*</strong>, Lingfeng Zhang, Jiahang Cao, Honglei Chen, Renjing Xu (*equal contribution)
     conference_short: ECCV
     conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
@@ -127,8 +182,12 @@ published:
     pdf: https://arxiv.org/pdf/2403.11138.pdf
     code: https://github.com/bic-L/Spiking-Wavelet-Transformer
     image: ./assets/img/SWT.png
+    tags: ["Efficient AI"]
+    abstract: >-
+      Spiking neural networks (SNNs) offer an energy-efficient alternative to conventional deep learning by emulating the event-driven processing manner of the brain. Incorporating Transformers with SNNs has shown promise for accuracy. However, they struggle to learn high-frequency patterns, such as moving edges and pixel-level brightness changes, because they rely on the global self-attention mechanism. Learning these high-frequency representations is challenging but essential for SNN-based event-driven vision. To address this issue, we propose the Spiking Wavelet Transformer (SWformer), an attention-free architecture that effectively learns comprehensive spatial-frequency features in a spike-driven manner by leveraging the sparse wavelet transform. The critical component is a Frequency-Aware Token Mixer (FATM) with three branches: 1) spiking wavelet learner for spatial-frequency domain learning, 2) convolution-based learner for spatial feature extraction, and 3) spiking pointwise convolution for cross-channel information aggregation - with negative spike dynamics incorporated in 1) to enhance frequency representation. The FATM enables the SWformer to outperform vanilla Spiking Transformers in capturing high-frequency visual components, as evidenced by our empirical results. Experiments on both static and neuromorphic datasets demonstrate SWformer's effectiveness in capturing spatial-frequency patterns in a multiplication-free and event-driven fashion, outperforming state-of-the-art SNNs. SWformer achieves a 22.03% reduction in parameter count, and a 2.52% performance improvement on the ImageNet dataset compared to vanilla Spiking Transformers. The code is available at: https://github.com/bic-L/Spiking-Wavelet-Transformer.
 
   - title: Spiking Diffusion Models
+    id: sdm
     authors: Jiahang Cao*, Hanzhong Guo*, <strong>Ziqing Wang*</strong>, Deming Zhou, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
     conference_short: TAI
     conference: IEEE Transactions on Artificial Intelligence <strong>(TAI)</strong>, 2024.
@@ -136,8 +195,12 @@ published:
     pdf: https://arxiv.org/pdf/2408.16467.pdf
     code: https://github.com/AndyCao1125/SDM
     image: ./assets/img/SDM-TAI.png
+    tags: ["Efficient AI"]
+    abstract: >-
+      Recent years have witnessed Spiking Neural Networks (SNNs) gaining attention for their ultra-low energy consumption and high biological plausibility compared with traditional Artificial Neural Networks (ANNs). Despite their distinguished properties, the application of SNNs in the computationally intensive field of image generation is still under exploration. In this paper, we propose the Spiking Diffusion Models (SDMs), an innovative family of SNN-based generative models that excel in producing high-quality samples with significantly reduced energy consumption. In particular, we propose a Temporal-wise Spiking Mechanism (TSM) that allows SNNs to capture more temporal features from a bio-plasticity perspective. In addition, we propose a threshold-guided strategy that can further improve the performances by up to 16.7% without any additional training. We also make the first attempt to use the ANN-SNN approach for SNN-based generation tasks. Extensive experimental results reveal that our approach not only exhibits comparable performance to its ANN counterpart with few spiking time steps, but also outperforms previous SNN-based generative models by a large margin. Moreover, we also demonstrate the high-quality generation ability of SDM on large-scale datasets, e.g., LSUN bedroom. This development marks a pivotal advancement in the capabilities of SNN-based generation, paving the way for future research avenues to realize low-energy and low-latency generative applications. Our code is available at https://github.com/AndyCao1125/SDM.
 
   - title: "AutoST: Training-free Neural Architecture Search for Spiking Transformers"
+    id: autost
     authors: <strong>Ziqing Wang</strong>, Qidong Zhao, Jinku Cui, Xu Liu, Dongkuan Xu
     conference_short: ICASSP
     conference: <b><font color="#cc0000">[Oral]</font></b> IEEE International Conference on Acoustics, Speech and Signal Processing <strong>(ICASSP)</strong>, 2024.
@@ -145,8 +208,12 @@ published:
     pdf: https://arxiv.org/pdf/2307.00293.pdf
     code: https://github.com/AlexandreWANG915/AutoST
     image: ./assets/img/AutoST.png
+    tags: ["Efficient AI"]
+    abstract: >-
+      Spiking Transformers have gained considerable attention because they achieve both the energy efficiency of Spiking Neural Networks (SNNs) and the high capacity of Transformers. However, the existing Spiking Transformer architectures, derived from Artificial Neural Networks (ANNs), exhibit a notable architectural gap, resulting in suboptimal performance compared to their ANN counterparts. Manually discovering optimal architectures is time-consuming. To address these limitations, we introduce AutoST, a training-free NAS method for Spiking Transformers, to rapidly identify high-performance Spiking Transformer architectures. Unlike existing training-free NAS methods, which struggle with the non-differentiability and high sparsity inherent in SNNs, we propose to utilize Floating-Point Operations (FLOPs) as a performance metric, which is independent of model computations and training dynamics, leading to a stronger correlation with performance. Our extensive experiments show that AutoST models outperform state-of-the-art manually or automatically designed SNN architectures on static and neuromorphic datasets. Full code, model, and data are released for reproduction.
 
   - title: Spiking Denoising Diffusion Probabilistic Models
+    id: sddpm
     authors: Jiahang Cao*, <strong>Ziqing Wang*</strong>, Hanzhong Guo*, Hao Cheng, Qiang Zhang, Renjing Xu (*equal contribution)
     conference_short: WACV
     conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2024.
@@ -154,8 +221,12 @@ published:
     pdf: https://arxiv.org/pdf/2306.17046.pdf
     code: https://github.com/AndyCao1125/SDDPM
     image: ./assets/img/SDDPM.png
+    tags: ["Efficient AI"]
+    abstract: >-
+      Spiking neural networks (SNNs) have ultra-low energy consumption and high biological plausibility due to their binary and bio-driven nature compared with artificial neural networks (ANNs). While previous research has primarily focused on enhancing the performance of SNNs in classification tasks, the generative potential of SNNs remains relatively unexplored. In our paper, we put forward Spiking Denoising Diffusion Probabilistic Models (SDDPM), a new class of SNN-based generative models that achieve high sample quality. To fully exploit the energy efficiency of SNNs, we propose a purely Spiking U-Net architecture, which achieves comparable performance to its ANN counterpart using only 4 time steps, resulting in significantly reduced energy consumption. Extensive experimental results reveal that our approach achieves state-of-the-art on the generative tasks and substantially outperforms other SNN-based generative models, achieving up to 12x and 6x improvement on the CIFAR-10 and the CelebA datasets, respectively. Moreover, we propose a threshold-guided strategy that can further improve the performances by 2.69% in a training-free manner. The SDDPM symbolizes a significant advancement in the field of SNN generation, injecting new perspectives and potential avenues of exploration. Our code is available at https://github.com/AndyCao1125/SDDPM.
 
   - title: Masked Spiking Transformer
+    id: mst
     authors: <strong>Ziqing Wang*</strong>, Yuetong Fang*, Jiahang Cao, Qiang Zhang, Zhongrui Wang, Renjing Xu (*equal contribution)
     conference_short: ICCV
     conference: International Conference on Computer Vision <strong>(ICCV)</strong>, 2023.
@@ -163,8 +234,12 @@ published:
     pdf: https://arxiv.org/pdf/2210.01208.pdf
     code: https://github.com/bic-L/Masked-Spiking-Transformer
     image: ./assets/img/MST.png
+    tags: ["Efficient AI"]
+    abstract: >-
+      The combination of Spiking Neural Networks (SNNs) and Transformers has attracted significant attention due to their potential for high energy efficiency and high-performance nature. However, existing works on this topic typically rely on direct training, which can lead to suboptimal performance. To address this issue, we propose to leverage the benefits of the ANN-to-SNN conversion method to combine SNNs and Transformers, resulting in significantly improved performance over existing state-of-the-art SNN models. Furthermore, inspired by the quantal synaptic failures observed in the nervous system, which reduces the number of spikes transmitted across synapses, we introduce a novel Masked Spiking Transformer (MST) framework that incorporates a Random Spike Masking (RSM) method to prune redundant spikes and reduce energy consumption without sacrificing performance. Our experimental results demonstrate that the proposed MST model achieves a significant reduction of 26.8% in power consumption when the masking ratio is 75% while maintaining the same level of performance as the unmasked model.
 
   - title: "AMD-DBSCAN: An Adaptive Multi-density DBSCAN for datasets of extremely variable density"
+    id: amd-dbscan
     authors: <strong>Ziqing Wang</strong>, Zhirong Ye, Yuyang Du, Yi Mao, Yanying Liu, Ziling Wu, Jun Wang
     conference_short: DSAA
     conference: IEEE International Conference on Data Science and Advanced Analytics <strong>(DSAA)</strong>, 2022.
@@ -172,9 +247,13 @@ published:
     pdf: https://arxiv.org/pdf/2210.08162.pdf
     code: https://github.com/AlexandreWANG915/DBSCAN
     image: ./assets/img/dbscan.png
+    tags: ["Efficient AI"]
+    abstract: >-
+      DBSCAN has been widely used in density-based clustering algorithms. However, with the increasing demand for Multi-density clustering, previous traditional DSBCAN can not have good clustering results on Multi-density datasets. In order to address this problem, an adaptive Multi-density DBSCAN algorithm (AMD-DBSCAN) is proposed in this paper. An improved parameter adaptation method is proposed in AMD-DBSCAN to search for multiple parameter pairs (i.e., Eps and MinPts), which are the key parameters to determine the clustering results and performance, therefore allowing the model to be applied to Multi-density datasets. Moreover, only one hyperparameter is required for AMD-DBSCAN to avoid the complicated repetitive initialization operations. Furthermore, the variance of the number of neighbors (VNN) is proposed to measure the difference in density between each cluster. The experimental results show that our AMD-DBSCAN reduces execution time by an average of 75% due to lower algorithm complexity compared with the traditional adaptive algorithm. In addition, AMD-DBSCAN improves accuracy by 24.7% on average over the state-of-the-art design on Multi-density datasets of extremely variable density, while having no performance loss in Single-density scenarios. Our code and datasets are available at https://github.com/AlexandreWANG915/AMD-DBSCAN.
 
 preprints:
   - title: "MedicalRSI: Medical Recursive Self-Improving Agents via Clinical Model-Harness Co-Evolution"
+    id: medicalrsi
     authors: <strong>Ziqing Wang</strong>, Hamid Palangi, Lili Zhao, Kaize Ding
     conference_short: arXiv
     conference: arXiv preprint, 2026.
@@ -183,35 +262,54 @@ preprints:
     code: https://github.com/REAL-Lab-NU/MedicalRSI
     page: https://real-lab-nu.github.io/MedicalRSI/
     image: ./assets/img/MedicalRSI.png
+    tags: ["Agentic AI / LLMs", "AI for Science"]
+    abstract: >-
+      Medical agents built on large language models (LLMs) have advanced rapidly, yet most stay fixed once deployed and do not keep using their experience to improve later attempts. As a result, the same kind of error can recur across patients. To address this, existing self-improvement methods update an agent’s weights or its medical harness from its own experience, but their improving strategy stays fixed and never learns which changes actually help, which caps how much the agent can improve. Recursive self-improvement (RSI) instead improves both the agent and its improving strategy. However, achieving RSI for medical agents is challenging, because clinical workflows rarely come with a reference harness, and a change that fixes early errors may not fix the problems the agent meets later. We propose MedicalRSI, an RSI framework built on Clinical Model-Harness Co-Evolution, in which one model plays two roles. The Solver is the medical agent itself, and the Improver is its learnable improving strategy, which writes a medical harness from the agent’s failures. Each harness is rewarded by its gain over acting without it, and both roles are trained together, so the Improver keeps adapting to the problems the Solver has not yet solved. On multiple benchmarks and LLM backbones, MedicalRSI outperforms existing context-level and weight-level self-improvement methods and transfers well to unseen workflows, new LLMs and new databases, a step toward medical agents that keep improving.
 
   - title: "MedLatentDx: Latent Multi-Agent Communication for Cross-Hospital Rare-Disease Diagnosis"
+    id: medlatentdx
     authors: <strong>Ziqing Wang</strong>, Lili Zhao, Kaize Ding
     conference_short: arXiv
     conference: arXiv preprint, 2026.
     year: 2026
     pdf: https://arxiv.org/pdf/2606.13945.pdf
     image: ./assets/img/MedLatentDx.png
+    tags: ["Agentic AI / LLMs", "AI for Science"]
+    abstract: >-
+      Rare diseases affect over 300 million patients across more than 7,000 conditions, yet no single hospital encounters enough cases of any one condition for reliable diagnosis. Cross-hospital collaboration could help by allowing a diagnosing institution to use distributed, case-specific diagnostic evidence, but privacy regulations restrict the transmission of identifiable clinical text across institutional boundaries. This setting raises two challenges: existing medical agent systems often rely on textual evidence exchange, while raw latent states such as hidden states and KV caches may still reveal prompt-derived clinical content. We introduce LatentDx, a latent multi-agent communication framework in which hospital agents keep private clinical records and retrieved cases local, and send compact latent KV blocks to a host agent for rare-disease diagnosis. LatentDx supports two deployment settings: same-backbone hospital agents use latent KV distillation, while hospitals with different LLM backbones use cross-family latent alignment. On CrossRare-Bench, a self-built large-scale rare-disease benchmark with hospital-level partitions, LatentDx improves cross-hospital diagnostic performance while reducing reconstructable clinical content relative to raw-latent communication baselines.
 
   - title: "Predicting Immune Biomarkers with MultiModal Mixture-of-Expert Pathology Foundation Models Empowers Precision Oncology"
+    id: mixtime
     authors: Tianyu Liu*, <strong>Ziqing Wang*</strong>, Zhaokang Liang*, Tong Ding, Peter Humphrey, Lorraine Colón-Cartagena, Emily Ling-Lin Pai, Kenneth Tou En Chang, Mohamed Kahila, Jonathan Chong Kai Liew, Tinglin Huang, Rex Ying, Kaize Ding, Faisal Mahmood, Wengong Jin (*equal contribution)
     conference_short: arXiv
     conference: arXiv preprint, 2026.
     year: 2026
     pdf: https://arxiv.org/pdf/2606.18123.pdf
     image: ./assets/img/MixTIME.png
+    tags: ["AI for Science"]
+    abstract: >-
+      Predicting immune biomarkers associated with the tumor immune microenvironment (TIME) is critical for advancing precision oncology, yet existing approaches are largely limited to single image modalities and suffer from insufficient resolution and incomplete utilization of complementary clinical and biological information. Here we introduce MixTIME, a multimodal foundation model that leverages a mixture-of-experts (MoE) architecture to integrate pathology foundation models trained across distinct modalities: image only (UNIv2), image text (CONCHv1.5), and image transcriptomic (STPath) representations for pixel-level and slide-level prediction of multiplex immunofluorescence (mIF) protein expression from hematoxylin and eosin (HE) whole-slide images. MixTIME employs a learnable router to dynamically weight expert contributions and is trained with a distribution- and tendency-aware loss function. Benchmarked on two datasets of different scales, MixTIME achieves state-of-the-art performance across 17 protein markers as measured by correlation metrics. The predicted mIF profiles substantially enhance downstream tasks, including spatial domain identification, survival prediction, and AI-assisted pathology report generation validated by expert pathologists from multiple institutes across the world. Furthermore, MixTIME enables longitudinal tracking of protein expression dynamics across clinical time points and reveals protein gene interaction patterns linked to drug resistance and immune suppression in tumor microenvironments. Collectively, MixTIME provides a scalable framework for multimodal biomarker discovery and clinical translation in computational pathology.
 
   - title: "Benchmarking AI Agents for Addressing Scientific Challenges Across Scales"
+    id: sciagentarena
     authors: Tianyu Liu, Allen Xin Wang, Antonia Panescu, Lisa Xinyi Chen, Wenxin Long, Xinyu Wei, Yueqian Jing, Ziyao Zeng, Jihang Chen, Sihan Jiang, <strong>Ziqing Wang</strong>, et al.
     conference_short: arXiv
     conference: arXiv preprint, 2026.
     year: 2026
     pdf: https://arxiv.org/pdf/2606.12736.pdf
     image: ./assets/img/SciAgentArena.png
+    tags: ["Agentic AI / LLMs", "AI for Science"]
+    abstract: >-
+      AI agents are increasingly being developed to accelerate scientific discovery, yet their practical capabilities in real research settings remain poorly understood. Existing benchmarks for AI agents rarely capture the complexity, heterogeneity, and extended reasoning required by scientific work, whereas benchmarks for scientific tasks often reduce research to static, direct problems and provide limited support for interactive evaluation. Here, we introduce SciAgentArena, a systematic benchmark for evaluating AI agents in real-world scientific research scenarios drawn from emerging needs across multiple domains. SciAgentArena comprises approximately 200 tasks with stepwise verification and an interactive, agent-agnostic environment for assessing diverse AI agents. Using this benchmark, we find that current agents can contribute effectively to well-specified data-analysis workflows, particularly when the task structure and evaluation criteria are clear. However, their performance remains uneven across scientific contexts: agents struggle to generate genuinely novel insights, sustain self-directed exploration, and formulate robust solutions for open-ended research questions. We further characterize common failure modes across agents and identify opportunities for improving their reliability, autonomy, and scientific reasoning. Together, SciAgentArena provides a practical framework for measuring progress in AI agents for science and for guiding the design of future agents capable of addressing complex scientific challenges. Full codes, tasks, and datasets can be accessed via this link: https://sciagentarena.github.io/.
 
   - title: "HopRank: Self-Supervised LLM Preference-Tuning on Graphs for Few-Shot Node Classification"
+    id: hoprank
     authors: <strong>Ziqing Wang</strong>, Kaize Ding
     conference_short: arXiv
     conference: arXiv preprint, 2026.
     year: 2026
     pdf: https://arxiv.org/pdf/2604.17271.pdf
     image: ./assets/img/HopRank.png
+    tags: ["Agentic AI / LLMs"]
+    abstract: >-
+      Node classification on text-attributed graphs (TAGs) is a fundamental task with broad applications in citation analysis, social networks, and recommendation systems. Current GNN-based approaches suffer from shallow text encoding and heavy dependence on labeled data, limiting their effectiveness in label-scarce settings. While large language models (LLMs) naturally address the text understanding gap with deep semantic reasoning, existing LLM-for-graph methods either still require abundant labels during training or fail to exploit the rich structural signals freely available in graph topology. Our key observation is that, in many real-world TAGs, edges predominantly connect similar nodes under the homophily principle, meaning graph topology inherently encodes class structure without any labels. Building on this insight, we reformulate node classification as a link prediction task and present HopRank, a fully self-supervised LLM-tuning framework for TAGs. HopRank constructs preference data via hierarchical hop-based sampling and employs adaptive preference learning to prioritize informative training signals without any class labels. At inference, nodes are classified by predicting their connection preferences to labeled anchors, with an adaptive early-exit voting scheme to improve efficiency. Experiments on three TAG benchmarks show that HopRank matches fully-supervised GNNs and substantially outperforms prior graph-LLM methods, despite using zero labeled training data.

@@ -1,0 +1,5 @@
+<div class="news-box" tabindex="0" aria-label="News">
+<ul class="news-list">
+{% for item in site.data.news %}<li><span class="news-date">{{ item.date }}</span><span class="news-text">{{ item.text }}</span></li>
+{% endfor %}</ul>
+</div>

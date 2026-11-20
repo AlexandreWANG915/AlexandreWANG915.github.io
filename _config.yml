@@ -6,9 +6,9 @@ email: ZiqingWang2029@u.northwestern.edu
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: Ziqing Wang, Northwestern University, agentic AI, LLM agents, AI for science, AI for healthcare, efficient AI, spiking neural networks
+description: Ziqing Wang is a Ph.D. student at Northwestern University building reliable and efficient AI systems, with work on agentic LLMs, AI for science and healthcare, and efficient AI.
+canonical: https://alexandrewang915.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
@@ -23,7 +23,7 @@ twitter: https://twitter.com/
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
 avatar: ./assets/img/avatar.jpg
 favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+favicon_dark: ./assets/img/favicon.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
@@ -56,3 +56,5 @@ exclude:
   - LICENSE
   - minimal-light.gemspec
   - html_source_file/
+  - docs/
+  - vendor/

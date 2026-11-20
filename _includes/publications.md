@@ -1,81 +1,42 @@
 <h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
 
+{% assign all_pubs = site.data.publications.published | concat: site.data.publications.preprints %}
+{% assign directions = "Agentic AI / LLMs|AI for Science|Efficient AI" | split: "|" %}
+<div class="pub-filter" role="group" aria-label="Filter publications by research direction">
+<button type="button" class="pub-filter-btn is-active" data-filter="all" aria-pressed="true">All <span class="count">{{ all_pubs.size }}</span></button>
+{% for d in directions %}{% assign n = 0 %}{% for p in all_pubs %}{% if p.tags contains d %}{% assign n = n | plus: 1 %}{% endif %}{% endfor %}<button type="button" class="pub-filter-btn" data-filter="{{ d }}" aria-pressed="false">{{ d }} <span class="count">{{ n }}</span></button>
+{% endfor %}</div>
+
 <div class="publications">
 
 {% comment %} ===== PUBLISHED ===== {% endcomment %}
+<div class="pub-block">
 <h3 style="margin-top: 28px; margin-bottom: 4px; font-weight: 500;">Published</h3>
 
 {% assign published_grouped = site.data.publications.published | group_by: 'year' | sort: 'name' | reverse %}
 {% for group in published_grouped %}
+<div class="pub-group">
 <h4 style="margin-top: 22px; margin-bottom: 6px; color: #043361; font-weight: 500; font-size: 1.17rem; letter-spacing: 0.01em;">{{ group.name }}</h4>
 <ol class="bibliography">
-{% for link in group.items %}
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %}
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-    {% endif %}
-    {% if link.conference_short %}
-    <abbr class="badge">{{ link.conference_short }}</abbr>
-    {% endif %}
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em></div>
-    <div class="links">
-      {% if link.pdf %}<a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>{% endif %}
-      {% if link.code %}<a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>{% endif %}
-      {% if link.page %}<a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>{% endif %}
-      {% if link.bibtex %}<a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>{% endif %}
-      {% if link.notes %}<strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>{% endif %}
-      {% if link.others %}{{ link.others }}{% endif %}
-    </div>
-  </div>
-</div>
-</li>
-<br>
-{% endfor %}
+{% for link in group.items %}{% include pub-item.html pub=link %}{% endfor %}
 </ol>
+</div>
 {% endfor %}
+</div>
 
 {% comment %} ===== PREPRINTS ===== {% endcomment %}
+<div class="pub-block">
 <h3 style="margin-top: 36px; margin-bottom: 4px; font-weight: 500;">Preprints</h3>
 
 {% assign preprints_grouped = site.data.publications.preprints | group_by: 'year' | sort: 'name' | reverse %}
 {% for group in preprints_grouped %}
+<div class="pub-group">
 <h4 style="margin-top: 22px; margin-bottom: 6px; color: #043361; font-weight: 500; font-size: 1.17rem; letter-spacing: 0.01em;">{{ group.name }}</h4>
 <ol class="bibliography">
-{% for link in group.items %}
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %}
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-    {% endif %}
-    {% if link.conference_short %}
-    <abbr class="badge">{{ link.conference_short }}</abbr>
-    {% endif %}
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em></div>
-    <div class="links">
-      {% if link.pdf %}<a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>{% endif %}
-      {% if link.code %}<a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>{% endif %}
-      {% if link.page %}<a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>{% endif %}
-      {% if link.bibtex %}<a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>{% endif %}
-      {% if link.notes %}<strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>{% endif %}
-      {% if link.others %}{{ link.others }}{% endif %}
-    </div>
-  </div>
-</div>
-</li>
-<br>
-{% endfor %}
+{% for link in group.items %}{% include pub-item.html pub=link %}{% endfor %}
 </ol>
+</div>
 {% endfor %}
+</div>
 
 </div>

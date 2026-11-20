@@ -12,7 +12,13 @@
     {% endif %}
     {% if site.canonical %}
     <link rel="canonical" href="{{ site.canonical }}"/>
+    <meta property="og:url" content="{{ site.canonical }}">
+    <meta property="og:image" content="{{ site.canonical }}{{ site.avatar | remove_first: './' }}">
     {% endif %}
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ site.title }} | {{ site.affiliation }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta name="twitter:card" content="summary">
 
     <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
@@ -33,9 +39,23 @@
     <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
+    <link rel="stylesheet" href="./assets/css/refresh.css">
 
   </head>
-  <body>
+  <body id="top">
+    <nav class="site-nav" aria-label="Sections">
+      <div class="site-nav__inner">
+        <a class="site-nav__brand" href="#top">{{ site.title }}</a>
+        <div class="site-nav__links">
+          <a href="#about-me">About</a>
+          <a href="#news">News</a>
+          <a href="#publications">Publications</a>
+          <a href="#projects">Projects</a>
+          <a href="#professional-services">Service</a>
+          <a href="#honors-and-awards">Awards</a>
+        </div>
+      </div>
+    </nav>
     <div class="wrapper">
       <header>
         
@@ -90,7 +110,7 @@
         </a>
         {% endif %}
         </div>
-        <br>
+        <p class="last-updated">Last updated: {{ site.time | date: "%b %-d, %Y" }}</p>
 
       </header>
       <section>
@@ -108,8 +128,36 @@
         
       </footer>
     </div>
+
+    <button type="button" class="to-top" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+
+    <div class="paper-modal" id="paper-modal" hidden>
+      <div class="paper-modal__backdrop" data-close></div>
+      <div class="paper-modal__panel" role="dialog" aria-modal="true" aria-labelledby="pm-title" tabindex="-1">
+        <div class="paper-modal__bar">
+          <button type="button" class="pm-nav" data-prev aria-label="Previous paper">&larr;<span class="pm-nav-label"> Previous</span></button>
+          <button type="button" class="pm-nav" data-next aria-label="Next paper"><span class="pm-nav-label">Next </span>&rarr;</button>
+          <span class="pm-count" aria-live="polite"></span>
+          <button type="button" class="pm-close" data-close aria-label="Close">&times;</button>
+        </div>
+        <div class="paper-modal__body">
+          <div class="pm-eyebrow"></div>
+          <h3 class="pm-title" id="pm-title"></h3>
+          <div class="pm-authors"></div>
+          <div class="pm-venue"></div>
+          <figure class="pm-figure"><a target="_blank" rel="noopener" title="Open full-size figure"><img alt=""></a></figure>
+          <div class="pm-abstract"><h4>Abstract</h4><p></p></div>
+          <div class="pm-links"></div>
+        </div>
+      </div>
+    </div>
+    <script type="application/json" id="pub-data">{{ site.data.publications | jsonify | replace: "</", "<\/" }}</script>
+
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/cursor-text.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/refresh.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

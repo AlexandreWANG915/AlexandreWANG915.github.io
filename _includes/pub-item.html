@@ -1,0 +1,34 @@
+{% comment %}
+  One publication row. Usage: {% include pub-item.html pub=entry %}
+  `id` drives the preview dialog and the #paper=<id> deep link; `tags` drive the filter bar.
+{% endcomment %}
+{% assign p = include.pub %}
+<li class="pub-item" data-pub-id="{{ p.id }}" data-tags="{{ p.tags | join: '|' }}">
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    {% if p.image %}
+    <button type="button" class="teaser-btn" data-preview="{{ p.id }}" aria-label="Preview: {{ p.title | strip_html | escape }}">
+      <img src="{{ p.image }}" alt="" class="teaser img-fluid z-depth-1" loading="lazy" decoding="async">
+    </button>
+    {% endif %}
+    {% if p.conference_short %}
+    <abbr class="badge">{{ p.conference_short }}</abbr>
+    {% endif %}
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title">{% if p.pdf %}<a href="{{ p.pdf }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
+      <div class="author">{{ p.authors }}</div>
+      <div class="periodical"><em>{{ p.conference }}</em></div>
+      {% if p.tags %}<div class="pub-tags">{% for t in p.tags %}<span class="tag-chip">{{ t }}</span>{% endfor %}</div>{% endif %}
+    <div class="links">
+      <button type="button" class="btn btn-sm btn-preview" data-preview="{{ p.id }}">Preview</button>
+      {% if p.pdf %}<a href="{{ p.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">PDF</a>{% endif %}
+      {% if p.code %}<a href="{{ p.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">Code</a>{% endif %}
+      {% if p.page %}<a href="{{ p.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">Project Page</a>{% endif %}
+      {% if p.bibtex %}<a href="{{ p.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">BibTex</a>{% endif %}
+      {% if p.notes %}<strong> <i style="color:#e74d3c">{{ p.notes }}</i></strong>{% endif %}
+      {% if p.others %}{{ p.others }}{% endif %}
+    </div>
+  </div>
+</div>
+</li>

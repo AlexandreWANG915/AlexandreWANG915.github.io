@@ -21,20 +21,20 @@ I love travelling and basketball. I am a big fan of the Golden State Warriors. M
 <div class="hobby-row">
     <div class="hobby">
         <h4>Rocky Mountain National Park</h4>
-        <img src="./assets/img/rocky-mountain.jpg" alt="Rocky Mountain National Park" />
+        <img loading="lazy" decoding="async" src="./assets/img/rocky-mountain.jpg" alt="Rocky Mountain National Park" />
     </div>
     <div class="hobby">
         <h4>Maroon Bells</h4>
-        <img src="./assets/img/maroon-bells.jpg" alt="Maroon Bells" />
+        <img loading="lazy" decoding="async" src="./assets/img/maroon-bells.jpg" alt="Maroon Bells" />
     </div>
     <div class="hobby">
         <h4>Steph Curry</h4>
-        <img src="./assets/img/curry.jpeg" alt="3" />
+        <img loading="lazy" decoding="async" src="./assets/img/curry.jpeg" alt="3" />
         <!-- <p>Playing Basketball</p> -->
     </div>
     <div class="hobby">
         <h4>Gold Blooded</h4>
-        <img src="./assets/img/yongshi.jpeg" alt="4" />
+        <img loading="lazy" decoding="async" src="./assets/img/yongshi.jpeg" alt="4" />
         <!-- <p>Playing Basketball</p> -->
     </div>
 </div>
